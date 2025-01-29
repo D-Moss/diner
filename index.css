@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+/*Navigation Bar*/
+.navbar ul {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+}
+
+.navbar li {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px 15px;
+}
+
+.navbar li a {
+	color: #1e263f;
+	background-color: transparent;
+	font-size: 21px;
+	font-weight: 750;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1.75px;
+}
+
+/*Inroduction Section*/
+.intro {
+	background-image: url("Image30-1536x1153.jpeg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 820px;
+}
+
+.intro header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.intro h1 {
+	color: #1e263f;
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*About Section*/
+.about-section {
+	background-color: #f2f2f2;
+	padding: 50px 30px;
+	display: flex;
+	align-items: center;
+}
+
+.about-section p {
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	line-height: 1.75;
+	width: 60%;
+}
