@@ -34,15 +34,22 @@ body {
 	letter-spacing: 1.75px;
 }
 
-/*Inroduction Section*/
-.intro {
+/*Home Page*/
+.parallax {
 	background-image: url("Image30-1536x1153.jpeg");
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 650px;
+}
+
+.intro {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	height: 820px;
+	height: 475px;
 }
 
 .intro header {
@@ -60,18 +67,60 @@ body {
 }
 
 /*About Section*/
-.about-section {
-	background-color: #f2f2f2;
+.about {
+	background-color: #f3f3f3;
 	padding: 50px 30px;
 	display: flex;
 	align-items: center;
 }
 
-.about-section p {
+.about p {
 	margin: auto;
 	text-align: center;
 	font-size: 17px;
-	text-transform: uppercase;
 	line-height: 1.75;
-	width: 60%;
+	width: 75%;
+}
+
+/*Possible Use*/
+.main {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+.column {
+	float: left;
+	width: 25%;
+}
+
+.content {
+	
+	background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
 }
