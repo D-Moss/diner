@@ -3,73 +3,99 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Diner</title>
 </head>
 <body>
 	<!--Navigation Bar-->
-	<nav class="navbar">
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#menu">Menu</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
-	<div class="parallax">
+	<div class="top-header" id="home">
+		<div class="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
 		<div class="intro">
 			<header>
-				<h1>Name of Diner</h1>
+				<h1>Tovana's Eatery</h1>
 			</header>
 		</div>
 	</div>
 
 	<!--About Section-->
-	<div class="about">
+	<div class="about-section" id="about">
 		<p>
-			Lorem ipsum odor amet, consectetuer adipiscing elit. Est curae vivamus aliquam velit tellus parturient nisl iaculis nibh. Sollicitudin fames commodo curabitur magna aliquet tristique. Vitae varius porttitor faucibus inceptos pulvinar turpis potenti ipsum. Posuere ridiculus ultricies luctus venenatis nam vehicula. Adipiscing ut sapien tempor taciti himenaeos auctor. Ac leo vivamus magnis scelerisque dignissim id. Sem nisi vel vestibulum molestie montes suscipit. Lobortis aliquet nec fusce imperdiet morbi.
+			Lorem ipsum odor amet, consectetuer adipiscing elit. Purus erat litora gravida tortor rutrum ridiculus in fusce. Euismod congue risus facilisis cubilia molestie hendrerit euismod quisque cursus. Nam tincidunt eu proin blandit per massa eu. Adipiscing nec fringilla feugiat elit potenti platea quis hendrerit. Integer velit congue dapibus metus nulla nunc nascetur maecenas. Nulla eros mattis lacinia parturient est neque magnis.
+		</p>
+
+		<p>
+			Ad aenean purus praesent potenti viverra morbi accumsan. Senectus vulputate inceptos nostra ultricies ante class dapibus. Arcu auctor sapien congue dolor fringilla. Praesent sodales cubilia hac congue tortor. Quis pharetra pulvinar lacinia egestas; quisque aliquet nisi etiam. Vitae facilisi pretium nisl condimentum; dolor fusce pellentesque. Lacinia hac a ullamcorper; auctor faucibus ad nulla. Sed porta dignissim bibendum tellus suspendisse netus habitasse porta. Dignissim ad malesuada imperdiet himenaeos tincidunt consectetur malesuada nisl. Elit platea rutrum habitasse lacinia lobortis et molestie diam.
 		</p>
 	</div>
 
 	<!--Featured Photos-->
 	<div class="main">
+		<h2>Check out our <a href="menu.html">Menu</a></h2>
+		<p>We are open for breakfast, lunch and dinner</p>
 		<div class="row">
 			<div class="column">
 				<div class="content">
-					<img src="https://i.postimg.cc/pLxQCvX5/pancakes.jpg" alt="Mountains" style="width: 100%; height: 218px;">
-					<p>
-						Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
-					</p>
+					<img src="https://i.postimg.cc/pLxQCvX5/pancakes.jpg" alt="pancakes" style="width: 100%; height: 218px;">
 				</div>
 			</div>
 
 			<div class="column">
 				<div class="content">
-					<img src="https://i.postimg.cc/BQ2c2bsG/fajitas.jpg" alt="Lights" style="width: 100%; height: 218px;">
-					<p>
-						Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
-					</p>
+					<img src="https://i.postimg.cc/BQ2c2bsG/fajitas.jpg" alt="fijatas" style="width: 100%; height: 218px;">
 				</div>
 			</div>
 
 			<div class="column">
 				<div class="content">
-					<img src="https://i.postimg.cc/SQBfX8Br/turkey.jpg" alt="Nature" style="width: 100%; height: 218px;">
-					<p>
-						Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
-					</p>
+					<img src="https://i.postimg.cc/SQBfX8Br/turkey.jpg" alt="turkey" style="width: 100%; height: 218px;">
 				</div>
 			</div>
 
 			<div class="column">
 				<div class="content">
-					<img src="https://i.postimg.cc/JhS5bkyM/banana.jpg" alt="Mountains" style="width: 100%; height: 218px;">
+					<img src="https://i.postimg.cc/JhS5bkyM/banana.jpg" alt="banana" style="width: 100%; height: 218px;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Contact-->
+	<div class="contact-section" id="contact">
+		<div class="container">
+			<div class="row-flex">
+				<div class="opening-time">
+					<h3>Hours of Operation</h3>
 					<p>
-						Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+						<span>Monday—Thursday: 7:00am — 9:30pm</span>
+	  					<span>Friday—Saturday: 7:00am — 10:30pm</span>
+	  					<span>Sunday: 8:00am — 6:00pm</span>
+					</p>
+				</div>
+				<div class="contact-address">
+					<h3>Contact Us</h3>
+					<p>
+						<span>215-678-3055 mobile</span>
+						<span class="small">868-363-4662 fax</span>
+						<span>6321 Beethoven Place</span>
+						<span class="email">diona.moss@outlook.com</span>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!--Footer-->
+	<footer>
+		<p>&copy 2025 | Tovana's Dine-In</p>
+	</footer>
 </body>
 </html>

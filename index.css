@@ -4,11 +4,17 @@
 
 body {
 	margin: 0;
+	max-width: 2200px;
 }
 
 /*Navigation Bar*/
-.navbar ul {
-	padding: 0;
+.top-header {
+	background-image: url("Image30-1536x1153.jpeg");
+	background-size: cover;
+	min-height: 750px;
+}
+
+.nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -18,13 +24,13 @@ body {
 	z-index: 100;
 }
 
-.navbar li {
+.nav li {
 	text-decoration: none;
 	list-style-type: none;
-	padding: 20px 15px;
+	padding: 60px 15px;
 }
 
-.navbar li a {
+.nav li a {
 	color: #1e263f;
 	background-color: transparent;
 	font-size: 21px;
@@ -35,21 +41,12 @@ body {
 }
 
 /*Home Page*/
-.parallax {
-	background-image: url("Image30-1536x1153.jpeg");
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 650px;
-}
-
 .intro {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	height: 475px;
+	height: 675px;
 }
 
 .intro header {
@@ -67,14 +64,12 @@ body {
 }
 
 /*About Section*/
-.about {
-	background-color: #f3f3f3;
-	padding: 50px 30px;
-	display: flex;
-	align-items: center;
+.about-section {
+	background-color: #f1f1f1;
+	padding: 75px 30px;
 }
 
-.about p {
+.about-section p {
 	margin: auto;
 	text-align: center;
 	font-size: 17px;
@@ -82,10 +77,21 @@ body {
 	width: 75%;
 }
 
-/*Possible Use*/
+/*Featured Photos*/
 .main {
 	margin: auto;
-	max-width: 1000px;
+	padding: 50px 20px;
+	max-width: 2100px;
+}
+
+.main h2,
+.main p {
+	text-align: center;
+}
+
+.main h2 a {
+	text-decoration: none;
+	color: #f4c6db;
 }
 
 .row {
@@ -108,9 +114,51 @@ body {
 	width: 25%;
 }
 
-.content {
-	
-	background-color: white;
+/*Contact Section*/
+.contact-section {
+	background-color: #f1f1f1;
+	padding: 75px 30px;
+}
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.opening-time,
+.contact-address {
+	margin: 30px 0;
+	padding-left: 150px;
+	flex: 1;
+}
+
+.opening-time p span,
+.contact-address p span {
+	display: block;
+}
+
+/*Footer*/
+footer {
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: 1.25px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1400px) {
+	.parallax {
+		background-image: none;
+	}
+	.intro {
+		background-image: url("Image30-1536x1153.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 850px;
+	}
+	.intro h1 {
+		margin: -175px;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -120,6 +168,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
 	.column {
 		width: 100%;
 	}
