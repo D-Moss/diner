@@ -46,7 +46,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	height: 675px;
+	height: 600px;
 }
 
 .intro header {
@@ -146,9 +146,6 @@ footer {
 
 /*Responsive*/
 @media screen and (max-width: 1400px) {
-	.parallax {
-		background-image: none;
-	}
 	.intro {
 		background-image: url("Image30-1536x1153.jpeg");
 		background-size: cover;
@@ -157,7 +154,8 @@ footer {
 		min-height: 850px;
 	}
 	.intro h1 {
-		margin: -175px;
+		margin: 0 auto;
+		color: red;
 	}
 }
 
