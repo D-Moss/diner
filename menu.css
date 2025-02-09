@@ -185,21 +185,6 @@ nav input {
 	display: none;
 }
 
-.main-content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	text-align: center;
-	padding: 0 30px;
-}
-
-.main-content div {
-	font-size: 45px;
-	font-weight: 600;
-}
-
 /*Main*/
 .main {
 	padding: 20px 16px;
