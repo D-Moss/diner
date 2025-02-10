@@ -8,223 +8,70 @@
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Header Menu-->
-	<nav>
-		<div class="wrapper">
-			<div class="logo">
-				<a href="index.html">Tovana's</a>
-			</div>
-			<input type="radio" name="slider" id="menu-btn">
-			<input type="radio" name="slider" id="close-btn">
-			<ul class="nav-links">
-				<label for="close-btn" class="btn close-btn">
-					<i class="fa fa-times"></i>
-				</label>
-				<li>
-					<a href="breakfast.html" class="desktop-item">Breakfast</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Breakfast</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#pancakes">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="#eggs">Omelettes</a>
-						</li>
-						<li>
-							<a href="#combo">Meals & Sandwiches</a>
-						</li>
-						<li>
-							<a href="#side">Sides</a>
-						</li>
-						<li>
-							<a href="#drinks">Beverages</a>
-						</li>
-					</ul>
-				</li>
+	<!--Big Header-->
+	<div class="header">
+		<h1>
+			<a href="index.html">Tovana's Homestyle Restaurant</a>
+		</h1>
+		<p>Click <span onclick="openNav()">here </span> to see our full menu</p>
+	</div>
 
-				<li>
-					<a href="starters.html" class="desktop-item">Starters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Starters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#appetizer">Appetizers</a>
-						</li>
-						<li>
-							<a href="#soup">Soup</a>
-						</li>
-						<li>
-							<a href="#salad">Salad</a>
-						</li>
-					</ul>
-				</li>
+	<!--Navigation Sidebar Menu-->
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="breakfast.html">Breakfast</a>
+		<a href="starters.html">Starters</a>
+		<a href="hands.html">Handhelds</a>
+		<a href="seafood.html">Seafood</a>
+		<a href="ribs.html">Ribs & Steaks</a>
+		<a href="dinner.html">Dinner</a>
+		<a href="drink.html">Beverages</a>
+		<a href="dessert.html">Dessert</a>
+		<a href="kids.html">Kiddie</a>
+	</div>
 
-				<li>
-					<a href="hands.html" class="desktop-item">Handhelds</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Handheld</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#burger">Burgers</a>
-						</li>
-						<li>
-							<a href="#chicken">Chicken Sandwich</a>
-						</li>
-						<li>
-							<a href="#sandwich">Sandwiches</a>
-						</li>
-						<li>
-							<a href="#hoagie">Hoagies</a>
-						</li>
-						<li>
-							<a href="#wrap">Wraps</a>
-						</li>
-						<li>
-							<a href="#csteak">Cheesesteak</a>
-						</li>
-					</ul>
-				</li>
+	<!--Appetizer Content-->
+	<div class="main">
+		<div class="main-menu">
+			<main>
+				<section>
+					<h3 id="pancakes">Starter Options</h3>
 
-				<li>
-					<a href="seafood.html" class="desktop-item">Seafood</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Seafood</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#platter">Platters</a>
-						</li>
-						<li>
-							<a href="#ssides"></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="ribs.html" class="desktop-item">Steaks & Ribs</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Steaks & Ribs</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#steak">Steaks</a>
-						</li>
-						<li>
-							<a href="#ribs"></a>
-						</li>
-						<li>
-							<a href="#rsides">Sides</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="dinner.html" class="desktop-item">Dinner Platters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dinner Platters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#dinner">Platters</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="drink.html" class="desktop-item">Beverages</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Beverages</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#soda">Sodas</a>
-						</li>
-						<li>
-							<a href="#juice">Juice</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="dessert.html" class="desktop-item">Dessert</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dessert</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#cake">Cakes</a>
-						</li>
-						<li>
-							<a href="#pie">Pies</a>
-						</li>
-						<li>
-							<a href="#ice">Ice Cream & Milkshakes</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="kids.html" class="desktop-item">Kiddie</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Kiddie</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#kbreakfast">Breakfast</a>
-						</li>
-						<li>
-							<a href="#klunch">Lunch & Dinner</a>
-						</li>
-						<li>
-							<a href="#ksides">Sides</a>
-						</li>
-						<li>
-							<a href="#kdrink">Drinks</a>
-						</li>
-						<li>
-							<a href="#kdessert">Dessert</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<label for="menu-btn" class="btn menu-btn">
-				<i class="fa fa-bars"></i>
-			</label>
-		</div>
-	</nav>
-    <!--End Header-->
-
-    <!--Main Content-->
-    <div class="main">
-    	<div class="main-menu">
-    		<main>
-    			<h1>Tovana's Homestyle Restaurant</h1>
-    			<section>
-    				<h2>Starters</h2>
-    				<h3>Appetizers</h3>
-
-    				<!--STARTERS-->
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Mozz Sticks</p>
-    						</button>
-    						<p class="item-description">
-    							3 buttermilk pancakes with butter & syrup
+					<!--APPETIZER-->
+					<h4>Appetizers</h4>
+					<div class="item-container">
+						<div class="item-content">
+							<button class="item-btn btn-link">
+								<p class="item-name">Mozarella Sticks</p>
+							</button>
+							<p class="item-description">
+								6 mozzarella sticks with house made sauce
+							</p>
+						</div>
+						<div class="item-content-price">
+							<button>$8.99</button>
+						</div>
+					</div>
+					<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Chicken Wings</p>
+	    					</button>
+	    					<p class="item-description">
+    							10 chicken wings coated in a sauce of your choice
     						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$11.99</button>
+	    				</div>
     				</div>
     				<div class="item-container">
     					<div class="item-content">
     						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 pieces of meat</span></p>
+    							<p class="item-name">Chicken Tenders</p>
     						</button>
     						<p class="item-description">
-    							Choice of one - bacon, sausage, ham or scrapple
+    							5 crispy tenders with your choice of dipping sauce
     						</p>
     					</div>
     					<div class="item-content-price">
@@ -234,39 +81,91 @@
     				<div class="item-container">
     					<div class="item-content">
     						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
+    							<p class="item-name">Loaded Fries</p>
     						</button>
     						<p class="item-description">
-    							Your choice of eggs and meats
+    							fries topped with melted cheese, bacon bits, sour cream and scallions
     						</p>
     					</div>
     					<div class="item-content-price">
-    						<button>$14.99</button>
+    						<button>$7.99</button>
     					</div>
     				</div>
     				<div class="item-container">
     					<div class="item-content">
     						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
+    							<p class="item-name">Onion Rings</p>
     						</button>
     						<p class="item-description">
-    							Eggs with cheese and your choice of meat
+    							fresh cut onion rings fried to golden perfection
     						</p>
     					</div>
     					<div class="item-content-price">
-    						<button>$16.99</button>
+    						<button>$6.99</button>
+    					</div>
+    				</div>
+    				<div class="item-container">
+    					<div class="item-content">
+    						<button class="item-btn btn-link">
+    							<p class="item-name">Spinach Dip</p>
+    						</button>
+    						<p class="item-description">
+    							spinach and artichoke dip with tortilla chips
+    						</p>
+    					</div>
+    					<div class="item-content-price">
+    						<button>$10.99</button>
+    					</div>
+    				</div>
+    				<div class="item-container">
+    					<div class="item-content">
+    						<button class="item-btn btn-link">
+    							<p class="item-name">Fried Shrimp</p>
+    						</button>
+    						<p class="item-description">
+    							basket of crispy fried shrimp served with cocktail sauce
+    						</p>
+    					</div>
+    					<div class="item-content-price">
+    						<button>$8.99</button>
     					</div>
     				</div>
 
-    				<!--SOUP AND SALAD-->
-    				<h3 id="side">Soups</h3>
+    				<!--SOUPS-->
+    				<h4>Soups</h4>
     				<div class="item-container">
     					<div class="item-content">
     						<button class="item-btn btn-link">
-    							<p class="item-name">Small Fruit Bowl</p>
+    							<p class="item-name">French Onion</p>
     						</button>
     						<p class="item-description">
-    							small seasonal fruit bowl
+    							small cup of soup or bowl for an extra $2.00
+    						</p>
+    					</div>
+    					<div class="item-content-price">
+    						<button>$3.99</button>
+    					</div>
+    				</div>
+	    			<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Clam Chowder</p>
+	    					</button>
+	    					<p class="item-description">
+	    						small cup of soup or bowl for an extra $2.00
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$3.99</button>
+	    				</div>
+    				</div>
+    				<div class="item-container">
+    					<div class="item-content">
+    						<button class="item-btn btn-link">
+    							<p class="item-name">Chicken Noodle</p>
+    						</button>
+    						<p class="item-description">
+    							small cup of soup or bowl for an extra $2.00
     						</p>
     					</div>
     					<div class="item-content-price">
@@ -274,50 +173,77 @@
     					</div>
     				</div>
     				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Large Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							large seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Broccoli Cheddar</p>
+	    					</button>
+	    					<p class="item-description">
+	    						small cup of soup or bowl for an extra $2.00
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$3.99</button>
+	    				</div>
+	    			</div>
 
-    				<h3 id="side">Salad</h3>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Small Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							small seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Large Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							large seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    			</section>
-    		</main>
-    	</div>
-    </div>
-    <script src="menu.js"></script>
+	    			<!--SALAD-->
+	    			<h4>Salads</h4>
+	    			<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Caesar</p>
+	    					</button>
+	    					<p class="item-description">
+	    						description | unlimited or for an extra $1.00, add a soup
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$6.99</button>
+	    				</div>
+	    			</div>
+	    			<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Strawberry, Banana French Toast</p>
+	    					</button>
+	    					<p class="item-description">
+	    						french toast topped with whip cream, sliced strawberries and bananas with a strawberry drizzle
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$8.99</button>
+	    				</div>
+	    			</div>
+	    			<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Chocolate Chip French Toast</p>
+	    					</button>
+	    					<p class="item-description">
+	    						french toast topped with whipped cream and chocolate chips
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$8.99</button>
+	    				</div>
+	    			</div>
+	    			<div class="item-container">
+	    				<div class="item-content">
+	    					<button class="item-btn btn-link">
+	    						<p class="item-name">Ham, Egg and Cheese French Toast</p>
+	    					</button>
+	    					<p class="item-description">
+	    						texas toast with egg, melted american cheese and sliced ham sandwich dusted with powdered sugar
+	    					</p>
+	    				</div>
+	    				<div class="item-content-price">
+	    					<button>$9.99</button>
+	    				</div>
+	    			</div>
+				</section>
+			</main>
+		</div>
+	</div>
+	<script src="menu.js"></script>	
 </body>
 </html>
