@@ -8,847 +8,550 @@
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Header Menu-->
-	<nav>
-		<div class="wrapper">
-			<div class="logo">
-				<a href="index.html">Tovana's</a>
+	<!--Big Header-->
+	<div class="header">
+		<h1>
+			<a href="index.html">Tovana's Homestyle Restaurant</a>
+		</h1>
+		<p>Take a look at our extensive menu below</p>
+	</div>
+
+	<!--Navigation Tab Menu-->
+	<div class="tab">
+		<button class="tablinks" onclick="openMenu(event, 'Breakfast')">Breakfast</button>
+		<button class="tablinks" onclick="openMenu(event, 'Starters')">Starters</button>
+		<button class="tablinks" onclick="openMenu(event, 'Handheld')">Handheld</button>
+		<button class="tablinks" onclick="openMenu(event, 'Seafood')">Seafood</button>
+		<button class="tablinks" onclick="openMenu(event, 'Steaks/Ribs')">Steaks/Ribs</button>
+		<button class="tablinks" onclick="openMenu(event, 'Dinner')">Dinner</button>
+		<button class="tablinks" onclick="openMenu(event, 'Beverages')">Beverages</button>
+		<button class="tablinks" onclick="openMenu(event, 'Kiddie')">Kiddie</button>
+		<button class="tablinks" onclick="openMenu(event, 'Dessert')">Dessert</button>
+	</div>
+
+	<!--Breakfast Content-->
+	<div id="Breakfast" class="tabcontent">
+		<div class="content">
+			<div class="main">
+				<div class="main-menu">
+					<main>
+						<section>
+							<h3 id="pancakes">Pancakes, Waffles & French Toast</h3>
+
+							<!--PANCAKES-->
+							<h4>Pancakes</h4>
+							<div class="item-container">
+								<div class="item-content">
+									<button class="item-btn btn-link">
+										<p class="item-name">Full Stack</p>
+									</button>
+									<p class="item-description">
+										3 buttermilk pancakes with butter & syrup
+									</p>
+								</div>
+								<div class="item-content-price">
+									<button>$7.99</button>
+								</div>
+							</div>
+							<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Full Stack with 2 pieces of meat</p>
+		    						</button>
+		    						<p class="item-description">
+	    								Choice of one - bacon, sausage, ham or scrapple
+	    							</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$9.99</button>
+		    					</div>
+	    					</div>
+	    					<div class="item-container">
+	    						<div class="item-content">
+	    							<button class="item-btn btn-link">
+	    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
+	    							</button>
+	    							<p class="item-description">
+	    								Your choice of eggs and meats
+	    							</p>
+	    						</div>
+	    						<div class="item-content-price">
+	    							<button>$14.99</button>
+	    						</div>
+	    					</div>
+	    					<div class="item-container">
+	    						<div class="item-content">
+	    							<button class="item-btn btn-link">
+	    								<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
+	    							</button>
+	    							<p class="item-description">
+	    								Eggs with cheese and your choice of meat
+	    							</p>
+	    						</div>
+	    						<div class="item-content-price">
+	    							<button>$16.99</button>
+	    						</div>
+	    					</div>
+
+	    					<!--WAFFLES-->
+	    					<h4>Waffles</h4>
+	    					<div class="item-container">
+	    						<div class="item-content">
+	    							<button class="item-btn btn-link">
+	    								<p class="item-name">Belgian Waffles</p>
+	    							</button>
+	    							<p class="item-description">
+	    								2 thick, fluffy waffles with butter and syrup
+	    							</p>
+	    						</div>
+	    						<div class="item-content-price">
+	    							<button>$6.99</button>
+	    						</div>
+	    					</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Chicken & waffles</p>
+		    						</button>
+		    						<p class="item-description">
+		    							2 thick, fluffy waffles with butter and syrup topped with crispy, deep fried chicken
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$11.99</button>
+		    					</div>
+	    					</div>
+	    					<div class="item-container">
+	    						<div class="item-content">
+	    							<button class="item-btn btn-link">
+	    								<p class="item-name">Chocolate chip Waffle</p>
+	    							</button>
+	    							<p class="item-description">
+	    								waffle stuffed with chocolate chips, topped with whip cream and a hot fudge drizzle
+	    							</p>
+	    						</div>
+	    						<div class="item-content-price">
+	    							<button>$8.99</button>
+	    						</div>
+	    					</div>
+	    					<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Strawberry Waffle</p>
+		    						</button>
+		    						<p class="item-description">
+		    							waffle topped with strawberries and whip cream with a strawberry sauce drizzle
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$8.99</button>
+		    					</div>
+		    				</div>
+
+		    				<!--FRENCH TOAST-->
+		    				<h4>French Toast</h4>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">French Toast</p>
+		    						</button>
+		    						<p class="item-description">
+		    							texas toast topped with butter and syrup
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$6.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Strawberry, Banana French Toast</p>
+		    						</button>
+		    						<p class="item-description">
+		    							french toast topped with whip cream, sliced strawberries and bananas with a strawberry drizzle
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$8.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Chocolate Chip French Toast</p>
+		    						</button>
+		    						<p class="item-description">
+		    							french toast topped with whipped cream and chocolate chips
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$8.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Ham, Egg and Cheese French Toast</p>
+		    						</button>
+		    						<p class="item-description">
+		    							texas toast with egg, melted american cheese and sliced ham sandwich dusted with powdered sugar
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$9.99</button>
+		    					</div>
+		    				</div>
+
+		    				<!--EGGS-->
+		    				<h3 id="eggs">Omelettes</h3>
+		    				<h4>Omelettes</h4>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Plain</p>
+		    						</button>
+		    						<p class="item-description">
+		    							pepper & onion omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$7.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Cheese</p>
+		    						</button>
+		    						<p class="item-description">
+		    							cheese omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$9.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Meat</p>
+		    						</button>
+		    						<p class="item-description">
+		    							bacon or ham omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$10.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Western</p>
+		    						</button>
+		    						<p class="item-description">
+		    							2 eggs with bell peppers, onions, ham and cheese omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$10.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Mushroom</p>
+		    						</button>
+		    						<p class="item-description">
+		    							sauteed mushroom and pepper jack cheese omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$10.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Cheese steak</p>
+		    						</button>
+		    						<p class="item-description">
+		    							ribeye steak, onion and american cheese omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$12.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Healthy</p>
+		    						</button>
+		    						<p class="item-description">
+		    							egg whites, spinach, broccoli, mushrooms, peppers & onion omelette served with shredded potatoes, toast and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$10.99</button>
+		    					</div>
+		    				</div>
+
+		    				<!--EXTRA-->
+		    				<h3 id="side">Extras</h3>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Biscuits</p>
+		    						</button>
+		    						<p class="item-description">
+		    							2 soft, buttermilk biscuits served with butter and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Muffins</p>
+		    						</button>
+		    						<p class="item-description">
+		    							your choice: banana nut, blueberry, chocolate chip
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Plain Bagel</p>
+		    						</button>
+		    						<p class="item-description">
+		    							plain bagel toasted with butter and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$1.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Bagels</p>
+		    						</button>
+		    						<p class="item-description">
+		    							cinnamon raisin or blueberry bagel toasted with butter and jelly
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Grits</p>
+		    						</button>
+		    						<p class="item-description">
+		    							bowl of grits with butter
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$4.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Cheese Grits</p>
+		    						</button>
+		    						<p class="item-description">
+		    							bowl of grits with butter topped with cheese
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$6.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Eggs</p>
+		    						</button>
+		    						<p class="item-description">
+		    							2 eggs made your way
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$6.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">2 Pieces of Meat</p>
+		    						</button>
+		    						<p class="item-description">
+		    							your choice of meat: bacon, sausage, ham or scrapple
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$6.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Small Fruit Bowl</p>
+		    						</button>
+		    						<p class="item-description">
+		    							small seasonal fruit bowl
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Large Fruit Bowl</p>
+		    						</button>
+		    						<p class="item-description">
+		    							large seasonal fruit bowl
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$6.99</button>
+		    					</div>
+		    				</div>
+
+		    				<!--DRINKS-->
+		    				<h3 id="drinks">Beverages</h3>
+		    				<h4>Cold</h4>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Orange Juice</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.99</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Apple Juice</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.95</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Cranberry Juice</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.99</button>
+		    					</div>
+		    				</div>
+
+		    				<h4>Hot</h4>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Hot Tea</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.95</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Coffee</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.95</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Hot Chocolate</p>
+		    						</button>
+		    						<p class="item-description">
+		    							free refill
+		    						</p>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$3.95</button>
+		    					</div>
+		    				</div>
+
+		    				<h4>Milk</h4>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">White</p>
+		    						</button>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.95</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Chocolate</p>
+		    						</button>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.95</button>
+		    					</div>
+		    				</div>
+		    				<div class="item-container">
+		    					<div class="item-content">
+		    						<button class="item-btn btn-link">
+		    							<p class="item-name">Strawberry</p>
+		    						</button>
+		    					</div>
+		    					<div class="item-content-price">
+		    						<button>$2.95</button>
+		    					</div>
+		    				</div>
+						</section>
+					</main>
+				</div>
 			</div>
-			<input type="radio" name="slider" id="menu-btn">
-			<input type="radio" name="slider" id="close-btn">
-			<ul class="nav-links">
-				<label for="close-btn" class="btn close-btn">
-					<i class="fa fa-times"></i>
-				</label>
-				<li>
-					<a href="breakfast.html" class="desktop-item">Breakfast</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Breakfast</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#pancakes">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="#eggs">Omelettes</a>
-						</li>
-						<li>
-							<a href="#combo">Meals & Sandwiches</a>
-						</li>
-						<li>
-							<a href="#side">Sides</a>
-						</li>
-						<li>
-							<a href="#drinks">Beverages</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="starters.html" class="desktop-item">Starters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Starters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#appetizer">Appetizers</a>
-						</li>
-						<li>
-							<a href="#soup">Soup</a>
-						</li>
-						<li>
-							<a href="#salad">Salad</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="hands.html" class="desktop-item">Handhelds</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Handheld</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#burger">Burgers</a>
-						</li>
-						<li>
-							<a href="#chicken">Chicken Sandwich</a>
-						</li>
-						<li>
-							<a href="#sandwich">Sandwiches</a>
-						</li>
-						<li>
-							<a href="#hoagie">Hoagies</a>
-						</li>
-						<li>
-							<a href="#wrap">Wraps</a>
-						</li>
-						<li>
-							<a href="#csteak">Cheesesteak</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="seafood.html" class="desktop-item">Seafood</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Seafood</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#platter">Platters</a>
-						</li>
-						<li>
-							<a href="#ssides"></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="ribs.html" class="desktop-item">Steaks & Ribs</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Steaks & Ribs</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#steak">Steaks</a>
-						</li>
-						<li>
-							<a href="#ribs"></a>
-						</li>
-						<li>
-							<a href="#rsides">Sides</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="dinner.html" class="desktop-item">Dinner Platters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dinner Platters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#dinner">Platters</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="drink.html" class="desktop-item">Beverages</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Beverages</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#soda">Sodas</a>
-						</li>
-						<li>
-							<a href="#juice">Juice</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="dessert.html" class="desktop-item">Dessert</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dessert</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#cake">Cakes</a>
-						</li>
-						<li>
-							<a href="#pie">Pies</a>
-						</li>
-						<li>
-							<a href="#ice">Ice Cream & Milkshakes</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="kids.html" class="desktop-item">Kiddie</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Kiddie</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#kbreakfast">Breakfast</a>
-						</li>
-						<li>
-							<a href="#klunch">Lunch & Dinner</a>
-						</li>
-						<li>
-							<a href="#ksides">Sides</a>
-						</li>
-						<li>
-							<a href="#kdrink">Drinks</a>
-						</li>
-						<li>
-							<a href="#kdessert">Dessert</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<label for="menu-btn" class="btn menu-btn">
-				<i class="fa fa-bars"></i>
-			</label>
 		</div>
-	</nav>
-    <!--End Header-->
-
-    <!--Main Content-->
-    <div class="main">
-    	<div class="main-menu">
-    		<main>
-    			<h1>Tovana's Homestyle Restaurant</h1>
-    			<section>
-    				<h2>Breakfast</h2>
-    				<h3 id="pancakes">Pancakes, Waffles & French Toast</h3>
-
-    				<!--PANCAKES-->
-    				<h4>Pancakes</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">
-    							3 buttermilk pancakes with butter & syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 pieces of meat</span></p>
-    						</button>
-    						<p class="item-description">
-    							Choice of one - bacon, sausage, ham or scrapple
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$9.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
-    						</button>
-    						<p class="item-description">
-    							Your choice of eggs and meats
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$14.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
-    						</button>
-    						<p class="item-description">
-    							Eggs with cheese and your choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$16.99</button>
-    					</div>
-    				</div>
-
-    				<!--WAFFLES-->
-    				<h4>Waffles</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Belgian Waffles</p>
-    						</button>
-    						<p class="item-description">
-    							2 thick, fluffy waffles with butter and syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chicken & waffles</p>
-    						</button>
-    						<p class="item-description">
-    							2 thick, fluffy waffles with butter and syrup topped with crispy, deep fried chicken
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$11.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chocolate chip Waffle</p>
-    						</button>
-    						<p class="item-description">
-    							waffle stuffed with chocolate chips, topped with whip cream and a hot fudge drizzle
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Strawberry Waffle</p>
-    						</button>
-    						<p class="item-description">
-    							waffle topped with strawberries and whip cream with a strawberry sauce drizzle
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-
-    				<!--FRENCH TOAST-->
-    				<h4>French Toast</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							texas toast topped with butter and syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Strawberry, Banana French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							french toast topped with whip cream, sliced strawberries and bananas with a strawberry drizzle
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chocolate Chip French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							french toast topped with whipped cream and chocolate chips
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Ham, Egg and Cheese French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							texas toast with egg, melted american cheese and sliced ham sandwich dusted with powdered sugar
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$9.99</button>
-    					</div>
-    				</div>
-
-    				<!--EGGS-->
-    				<h3 id="eggs">Omelettes</h3>
-    				<h4>Omelettes</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Plain</p>
-    						</button>
-    						<p class="item-description">
-    							pepper & onion omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese</p>
-    						</button>
-    						<p class="item-description">
-    							cheese omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$9.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Meat</p>
-    						</button>
-    						<p class="item-description">
-    							bacon or ham omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Western</p>
-    						</button>
-    						<p class="item-description">
-    							2 eggs with bell peppers, onions, ham and cheese omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Mushroom</p>
-    						</button>
-    						<p class="item-description">
-    							sauteed mushroom and pepper jack cheese omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese steak</p>
-    						</button>
-    						<p class="item-description">
-    							ribeye steak, onion and american cheese omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$12.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Healthy</p>
-    						</button>
-    						<p class="item-description">
-    							egg whites, spinach, broccoli, mushrooms, peppers & onion omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-
-    				<!--Combo-->
-    				<h3 id="combo">Combo Meals & Sandwiches</h3>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Homefries</p>
-    						</button>
-    						<p class="item-description">
-    							with toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Meaty Homefries</p>
-    						</button>
-    						<p class="item-description">
-    							with buttered toast and jelly and your choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Homefries & Eggs</p>
-    						</button>
-    						<p class="item-description">
-    							with buttered toast and jelly served with 2 eggs
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$11.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Homefries & Eggs</p>
-    						</button>
-    						<p class="item-description">
-    							with buttered toast and jelly served with 2 cheese eggs
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$13.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Egg Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							2 eggs on buttered toast with an option of jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$5.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese Egg Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							2 eggs with cheese on buttered toast with an option of jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Egg & Meat Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							2 eggs on buttered toast with an option of jelly and your choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Egg, Meat & Cheese Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							2 cheese eggs on buttered toast with an option of jelly and your choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Omelette Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							omelette egg on buttered toast with an option of jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Grits Combo</p>
-    						</button>
-    						<p class="item-description">
-    							bowl of cheese grits, 2 eggs, toast with butter and jelly, choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$13.99</button>
-    					</div>
-    				</div>
-
-    				<!--EXTRA-->
-    				<h3 id="side">Extras</h3>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Biscuits</p>
-    						</button>
-    						<p class="item-description">
-    							2 soft, buttermilk biscuits served with butter and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Muffins</p>
-    						</button>
-    						<p class="item-description">
-    							your choice: banana nut, blueberry, chocolate chip
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Plain Bagel</p>
-    						</button>
-    						<p class="item-description">
-    							plain bagel toasted with butter and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Bagels</p>
-    						</button>
-    						<p class="item-description">
-    							cinnamon raisin or blueberry bagel toasted with butter and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Grits</p>
-    						</button>
-    						<p class="item-description">
-    							bowl of grits with butter
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$4.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese Grits</p>
-    						</button>
-    						<p class="item-description">
-    							bowl of grits with butter topped with cheese
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Eggs</p>
-    						</button>
-    						<p class="item-description">
-    							2 eggs made your way
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">2 Pieces of Meat</p>
-    						</button>
-    						<p class="item-description">
-    							your choice of meat: bacon, sausage, ham or scrapple
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Small Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							small seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Large Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							large seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-
-    				<!--DRINKS-->
-    				<h3 id="drinks">Beverages</h3>
-    				<h4>Cold</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Orange Juice</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Apple Juice</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.95</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cranberry Juice</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-
-    				<h4>Hot</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Hot Tea</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.95</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Coffee</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.95</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Hot Chocolate</p>
-    						</button>
-    						<p class="item-description">
-    							free refill
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.95</button>
-    					</div>
-    				</div>
-
-    				<h3>Milk</h3>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">White</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.95</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chocolate</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.95</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Strawberry</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.95</button>
-    					</div>
-    				</div>
-    			</section>
-    		</main>
-    	</div>
-    </div>
-    <script src="menu.js"></script>
+	</div>
+	<script src="menu.js"></script>	
 </body>
 </html>

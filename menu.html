@@ -8,611 +8,118 @@
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Header Menu-->
-	<nav>
-		<div class="wrapper">
-			<div class="logo">
-				<a href="index.html">Tovana's</a>
-			</div>
-			<input type="radio" name="slider" id="menu-btn">
-			<input type="radio" name="slider" id="close-btn">
-			<ul class="nav-links">
-				<label for="close-btn" class="btn close-btn">
-					<i class="fa fa-times"></i>
-				</label>
-				<li>
-					<a href="#breakfast" class="desktop-item">Breakfast</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Breakfast</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#pancakes">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="#eggs">Omelettes</a>
-						</li>
-						<li>
-							<a href="#sides">Sides</a>
-						</li>
-						<li>
-							<a href="#drinks">Beverages</a>
-						</li>
-					</ul>
-				</li>
+	<!--Navigation Bar-->
+	<div class="sidenav" id="mySidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="breakfast.html" id="breakfast">Breakfast</a>
+		<a href="starters.html" id="starters">Starters</a>
+		<a href="hands.html" id="hands">Handheld</a>
+		<a href="seafood.html" id="seafood">Seafood</a>
+		<a href="ribs.html" id="ribs">Steaks/Ribs</a>
+		<a href="dinner.html" id="dinner">Dinner</a>
+		<a href="drink.html" id="drink">Beverages</a>
+		<a href="kids.html" id="kids">Kiddie</a>
+		<a href="dessert" id="dessert">Dessert</a>
+	</div>
 
-				<li>
-					<a href="starters.html" class="desktop-item">Starters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Starters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#appetizer">Appetizers</a>
-						</li>
-						<li>
-							<a href="#soup">Soup</a>
-						</li>
-						<li>
-							<a href="#salad">Salad</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Handhelds</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Handheld</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="#pancakes"></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Seafood</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Seafood</label>
-					<ul class="drop-menu">
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Steaks & Ribs</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Steaks & Ribs</label>
-					<ul class="drop-menu">
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href=""></a>
-						</li>
-						<li>
-							<a href="">Sides</a>
-						</li>
-						<li>
-							<a href="">Drinks</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Dinner Platters</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dinner Platters</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="">Eggs</a>
-						</li>
-						<li>
-							<a href="">Sides</a>
-						</li>
-						<li>
-							<a href="">Drinks</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Beverages</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Beverages</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="">Eggs</a>
-						</li>
-						<li>
-							<a href="">Sides</a>
-						</li>
-						<li>
-							<a href="">Drinks</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Dessert</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Dessert</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="">Eggs</a>
-						</li>
-						<li>
-							<a href="">Sides</a>
-						</li>
-						<li>
-							<a href="">Drinks</a>
-						</li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#breakfast" class="desktop-item">Kiddie</a>
-					<input type="checkbox" id="showDrop">
-					<label for="showDrop" class="mobile-item">Kiddie</label>
-					<ul class="drop-menu">
-						<li>
-							<a href="">Pancakes, Waffles & French Toast</a>
-						</li>
-						<li>
-							<a href="">Eggs</a>
-						</li>
-						<li>
-							<a href="">Sides</a>
-						</li>
-						<li>
-							<a href="">Drinks</a>
-						</li>
-					</ul>
-				</li>
+	<!--Main Content-->
+	<div id="main">
+		<div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Full Menu</span>
+		<h2>Sidenav Push Example</h2>
+		<p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+		<p>This page should have some pictures, what sauces are available, senior price, breakfast serving time</p>
+	</div>
+	<!--Navigation Bar-->
+	<div class="top-header" id="home">
+		<div class="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li></li>
+				<li><a href="breakfast.html">Menu</a></li>
+				<li></li>
 			</ul>
-			<label for="menu-btn" class="btn menu-btn">
-				<i class="fa fa-bars"></i>
-			</label>
 		</div>
-	</nav>
-    <!--End Header-->
+		<div class="intro">
+			<header>
+				<h1>Tovana's Homestyle Restaurant</h1>
+			</header>
+		</div>
+	</div>
 
-    <!--Main Content-->
-    <div class="main">
-    	<div class="main-menu">
-    		<main>
-    			<h1>Tovana's Homestyle Restaurant</h1>
-    			<section>
-    				<h2>Breakfast</h2>
-    				<h3 id="pancakes">Pancakes, Waffles & French Toast</h3>
+	<!--About Section-->
+	<div class="about-section" id="about">
+		<p>
+			Lorem ipsum odor amet, consectetuer adipiscing elit. Purus erat litora gravida tortor rutrum ridiculus in fusce. Euismod congue risus facilisis cubilia molestie hendrerit euismod quisque cursus. Nam tincidunt eu proin blandit per massa eu. Adipiscing nec fringilla feugiat elit potenti platea quis hendrerit. Integer velit congue dapibus metus nulla nunc nascetur maecenas. Nulla eros mattis lacinia parturient est neque magnis.
+		</p>
 
-    				<!--PANCAKES-->
-    				<h4>Pancakes</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">
-    							3 buttermilk pancakes with butter & syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 pieces of meat</span></p>
-    						</button>
-    						<p class="item-description">
-    							Choice of one - bacon, sausage, ham or scrapple
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$9.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
-    						</button>
-    						<p class="item-description">
-    							Your choice of eggs and meats
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$14.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack with 2 meats & 2 eggs</p>
-    						</button>
-    						<p class="item-description">
-    							Eggs with cheese and your choice of meat
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$16.99</button>
-    					</div>
-    				</div>
+		<p>
+			Ad aenean purus praesent potenti viverra morbi accumsan. Senectus vulputate inceptos nostra ultricies ante class dapibus. Arcu auctor sapien congue dolor fringilla. Praesent sodales cubilia hac congue tortor. Quis pharetra pulvinar lacinia egestas; quisque aliquet nisi etiam. Vitae facilisi pretium nisl condimentum; dolor fusce pellentesque. Lacinia hac a ullamcorper; auctor faucibus ad nulla. Sed porta dignissim bibendum tellus suspendisse netus habitasse porta. Dignissim ad malesuada imperdiet himenaeos tincidunt consectetur malesuada nisl. Elit platea rutrum habitasse lacinia lobortis et molestie diam.
+		</p>
+	</div>
 
-    				<!--WAFFLES-->
-    				<h4>Waffles</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Belgian Waffles</p>
-    						</button>
-    						<p class="item-description">
-    							2 thick, fluffy waffles with butter and syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chicken & waffles</p>
-    						</button>
-    						<p class="item-description">
-    							2 thick, fluffy waffles with butter and syrup topped with crispy, deep fried chicken
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$11.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
+	<!--Featured Photos-->
+	<div class="main">
+		<h2>Check out our <a href="breakfast.html">Menu</a></h2>
+		<p>We are open for breakfast, lunch and dinner</p>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="https://i.postimg.cc/pLxQCvX5/pancakes.jpg" alt="pancakes" style="width: 100%; height: 218px;">
+				</div>
+			</div>
 
-    				<!--FRENCH TOAST-->
-    				<h4>French Toast</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cinnamon French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							3 cinnamon french toast with texas toast topped with butter and syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cinnamon French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							cinnamon, french toast topped with fruit and powder sugar
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chocolate French Toast</p>
-    						</button>
-    						<p class="item-description">
-    							french toast topped with whipped cream and chocolate chips
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$8.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Full Stack</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
+			<div class="column">
+				<div class="content">
+					<img src="https://i.postimg.cc/BQ2c2bsG/fajitas.jpg" alt="fijatas" style="width: 100%; height: 218px;">
+				</div>
+			</div>
 
-    				<!--EGGS-->
-    				<h3 id="eggs">
-    				<h4>Omelettes</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Plain</p>
-    						</button>
-    						<p class="item-description">
-    							pepper & onion omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$7.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese</p>
-    						</button>
-    						<p class="item-description">
-    							cheese omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$9.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Meat</p>
-    						</button>
-    						<p class="item-description">
-    							bacon or ham omelette served with shredded potatoes, toast and jelly
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Western</p>
-    						</button>
-    						<p class="item-description">
-    							Three golden brown pancakes with butter and syrup
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Mushroom</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cheese steak</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$12.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Healthy</p>
-    						</button>
-    						<p class="item-description">Three golden brown pancakes with butter and syrup</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
+			<div class="column">
+				<div class="content">
+					<img src="https://i.postimg.cc/SQBfX8Br/turkey.jpg" alt="turkey" style="width: 100%; height: 218px;">
+				</div>
+			</div>
 
-    				<!--SIDES-->
-    				<h3 id="side">Sides</h3>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Small Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							small seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Large Fruit Bowl</p>
-    						</button>
-    						<p class="item-description">
-    							large seasonal fruit bowl
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
+			<div class="column">
+				<div class="content">
+					<img src="https://i.postimg.cc/JhS5bkyM/banana.jpg" alt="banana" style="width: 100%; height: 218px;">
+				</div>
+			</div>
+		</div>
+	</div>
 
-    				<!--DRINKS-->
-    				<h3 id="drinks">Beverages</h3>
-    				<h4>Cold</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Orange Juice</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Apple Juice</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Cranberry Juice</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
+	<!--Contact-->
+	<div class="contact-section" id="contact">
+		<div class="container">
+			<div class="row-flex">
+				<div class="opening-time">
+					<h3>Hours of Operation</h3>
+					<p>
+						<span>Monday—Thursday: 7:00am — 9:30pm</span>
+	  					<span>Friday—Saturday: 7:00am — 10:30pm</span>
+	  					<span>Sunday: 8:00am — 6:00pm</span>
+					</p>
+				</div>
+				<div class="contact-address">
+					<h3>Contact Us</h3>
+					<p>
+						<span>215-678-3055 mobile</span>
+						<span class="small">868-363-4662 fax</span>
+						<span>6321 Beethoven Place</span>
+						<span class="email">diona.moss@outlook.com</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    				<h4>Hot</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Hot Tea</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Coffee</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Hot Chocolate</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
+	<!--Footer-->
+	<footer>
+		<p>&copy 2025 | Tovana's Dine-In</p>
+	</footer>
+	</div>
 
-    				<h4>Milk</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">White</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chocolate</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Strawberry</p>
-    						</button>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$1.00</button>
-    					</div>
-    				</div>
-    			</section>
-    		</main>
-    	</div>
-    </div>
-    <script src="menu.js"></script>
+	<script src="menu.js"></script>
 </body>
 </html>

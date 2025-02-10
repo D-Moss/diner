@@ -4,20 +4,22 @@
 
 body {
 	margin: 0;
-	max-width: 2200px;
 }
 
-/*Navigation Bar*/
-.top-header {
-	background-image: url("Image30-1536x1153.jpeg");
+/*Big Header*/
+.header {
+	padding: 80px;
+	background-image: url("images/Image30-1536x1153.jpeg");
+	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 750px;
+	min-height: 775px;
 }
 
 .nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	top: 0;
 	left: 0;
 	width: 100%;
 	position: absolute;
@@ -57,7 +59,9 @@ body {
 }
 
 .intro h1 {
-	color: #1e263f;
+	padding: 0;
+	text-align: center;
+	color: white;
 	font-size: 64px;
 	font-weight: 700;
 	text-align: center;
@@ -66,15 +70,32 @@ body {
 /*About Section*/
 .about-section {
 	background-color: #f1f1f1;
-	padding: 75px 30px;
+	padding: 75px 0;
 }
 
 .about-section p {
 	margin: auto;
-	text-align: center;
+	text-align: justify;
 	font-size: 17px;
 	line-height: 1.75;
 	width: 75%;
+}
+
+.about-section h5 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.aboutrow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.aboutcol {
+	padding: 10px;
+	float: left;
+	width: 25%;
 }
 
 /*Featured Photos*/
