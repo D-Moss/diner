@@ -1,6 +1,14 @@
 .pancakes {
-	background-image: url("images/pancakes.jpg");
+	background-image: url("images/Untitled (735 x 490 px).png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+}
+
+.pancake-text {
+	background: rgba(0, 0, 0, 0.3);
+    color: white;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 1.0);
+    border-radius: 16px;
+    padding: 30px;
 }
