@@ -9,20 +9,31 @@ body {
 /*Big Header*/
 .header {
 	padding: 60px;
-	background-color: burlywood;
+	background-image: radial-gradient(circle, #000000, #c89116);
 	color: white;
 	font-size: 30px;
 	text-align: center;
 }
 
 .header a {
+	font-size: 72px;
 	color: white;
-	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
 	text-decoration: none;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #d9d9d9, 0 0 40px #d9d9d9, 0 0 50px #d9d9d9, 0 0 60px #d9d9d9, 0 0 70px #d9d9d9, 0 0 80px #d9d9d9;
+	}
 }
 
 .header span {
-	color: black;
+	color: #d9d9d9;
 	font-size: 30px;
 	text-decoration: underline;
 	cursor: pointer;
@@ -78,10 +89,6 @@ body {
 	padding: 20px 16px;
 }
 
-.main h2 {
-	padding-top: 45px; /*MAY NOT NEED*/
-}
-
 .main h3 {
 	padding: 25px;
 	text-align: center;
@@ -98,7 +105,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
-	background-color: burlywood;
+	
 	width: 80%;
 	max-width: 1050px;
 }
@@ -153,19 +160,3 @@ body {
 .item-content-price button {
 	padding: 0 7px;
 }
-
-@media screen and (min-width: 768) {
-	.item-content-price {
-		flex: 1 1 100%;
-		justify-content: flex-end;
-	}
-}
-
-/*Footer*/
-footer {
-	text-align: center;
-	font-size: 17px;
-	letter-spacing: 1.25px;
-}
-
-/*Responsive*/

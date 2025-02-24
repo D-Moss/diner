@@ -7,6 +7,18 @@ body {
 }
 
 /*Big Header*/
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 .header {
 	padding: 80px;
 	background-image: url("images/Image30-1536x1153.jpeg");
