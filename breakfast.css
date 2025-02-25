@@ -1,14 +1,49 @@
-.pancakes {
-	background-image: url("images/Untitled (735 x 490 px).png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-}
-
-.pancake-text {
+.pancake-text,
+.waffle-text,
+.ftoast-text,
+.egg-text,
+.bside-text {
 	background: rgba(0, 0, 0, 0.3);
     color: white;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 1.0);
     border-radius: 16px;
     padding: 30px;
 }
+
+.pancakes {
+	background-image: url("mimages/pancakes.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.waffles {
+	background-image: url("mimages/Chickenwaffles.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.ftoast {
+	background-image: url("mimages/toast.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.egg {
+	background-image: url("mimages/egg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: auto;
+}
+
+.bside {
+	background-image: url("mimages/fruitBagel.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: auto;
+}
+
