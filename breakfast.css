@@ -1,49 +1,107 @@
-.pancake-text,
-.waffle-text,
-.ftoast-text,
-.egg-text,
-.bside-text {
-	background: rgba(0, 0, 0, 0.3);
-    color: white;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 1.0);
-    border-radius: 16px;
-    padding: 30px;
+.pancake-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
 }
 
-.pancakes {
-	background-image: url("mimages/pancakes.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+.pancake1 {
+	grid-row-start: 1;
+	grid-row-end: 5;
 }
 
-.waffles {
-	background-image: url("mimages/Chickenwaffles.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-}
-
-.ftoast {
-	background-image: url("mimages/toast.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-}
-
-.egg {
-	background-image: url("mimages/egg.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: auto;
+.pancake1 img {
+	max-width: 100%;
 	height: auto;
+	border-radius: 3%;
 }
 
-.bside {
-	background-image: url("mimages/fruitBagel.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: auto;
+.waffle-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
+}
+
+.waffle1 {
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.waffle1 img {
+	max-width: 100%;
 	height: auto;
+	border-radius: 3%;
 }
 
+.toast-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
+}
+
+.toast1 {
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+.toast1 img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 3%;
+}
+
+.egg-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
+}
+
+.egg1 {
+	grid-row-start: 1;
+	grid-row-end: 8;
+}
+
+.egg1 img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 3%;
+}
+
+.bside-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
+}
+
+.bside1 {
+	grid-row-start: 1;
+	grid-row-end: 9;
+}
+
+.bside1 img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 3%;
+}
+
+.drink-container {
+	display: grid;
+	grid-template-columns: 45% 50% 5%;
+	gap: 10px;
+	padding: 10px;
+}
+
+.cold1 {
+	grid-row-start: 1;
+	grid-row-end: 10;
+}
+
+.cold1 img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 3%;
+}

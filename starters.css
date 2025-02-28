@@ -1,0 +1,37 @@
+.app-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.app-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.app1 {
+grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.app2 {
+	grid-area: 2 / 3 / span 7 / span 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app2 img {
+	height: auto;
+	width: auto;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.btn button {
+	font-size: 16px;
+}
