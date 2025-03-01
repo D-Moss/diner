@@ -1,37 +1,46 @@
-.app-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
+.row {
+	margin: 10px -16px;
 }
 
-.app-container > div {
-  background-color: #f1f1f1;
-  text-align: center;
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
-.app1 {
-grid-area: 1 / 1 / span 1 / span 3;
+.row,
+.row > .column {
+	padding: 8px;
 }
 
-.app2 {
-	grid-area: 2 / 3 / span 7 / span 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.column {
+	float: left;
+	width: 33.33%;
+	display: none;
 }
 
-.app2 img {
-	height: auto;
-	width: auto;
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+.show {
+	display: block;
 }
 
 .btn {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: white;
+	cursor: pointer;
 }
 
-.btn button {
-	font-size: 16px;
+.btn:hover {
+	background-color: #ddd;
+}
+
+.btn.active {
+	background-color: #666;
+	color: white;
 }

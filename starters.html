@@ -32,262 +32,273 @@
 	</div>
 
 	<!--Appetizer Content-->
-	<div class="main">
-		<h1>Starters</h1>
-		<div class="main-menu">
-			<main>
-				<section>
-					<!--APPETIZER-->
-					<div class="app-container">
-						<div class="app1">
-							<h2>Appetizers</h2>
-							</div>
-							<div class="app2">
-								<img src="mimages/orange.png">
-							</div>
-							<div class="app3">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app5">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app6">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app7">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app8">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app9">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-							<div class="app10">
-								<p>Chicken Tenders</p>
-								<p>Some description text will go here. Hopefully it'll work</p>
-							</div>
-							<div class="btn">
-								<button>$2.99</button>
-							</div>
-						</div>
+	<h2>Tovana's Menu</h2>
 
-    				<!--SOUPS-->
-    				<h4>Soups</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">French Onion</p>
-    						</button>
-    						<p class="item-description">
-    							small cup of soup or bowl for an extra $2.00
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Clam Chowder</p>
-	    					</button>
-	    					<p class="item-description">
-	    						small cup of soup or bowl for an extra $2.00
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chicken Noodle</p>
-    						</button>
-    						<p class="item-description">
-    							small cup of soup or bowl for an extra $2.00
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Broccoli Cheddar</p>
-	    					</button>
-	    					<p class="item-description">
-	    						small cup of soup or bowl for an extra $2.00
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
+	<div id="myBtnContainer">
+		<button class="btn active" onclick="filterSelection('all')">Full Menu</button>
+		<button class="btn" onclick="filterSelection('breakfast')">Breakfast</button>
+		<button class="btn" onclick="filterSelection('starters')">Starters</button>
+		<button class="btn" onclick="filterSelection('handheld')">Handhelds</button>
+		<button class="btn" onclick="filterSelection('seafood')">Seafood</button>
+		<button class="btn" onclick="filterSelection('ribs')">Ribs & Steaks</button>
+		<button class="btn" onclick="filterSelection('dinner')">Dinner</button>
+		<button class="btn" onclick="filterSelection('beverages')">Beverages</button>
+		<button class="btn" onclick="filterSelection('dessert')">Dessert</button>
+		<button class="btn" onclick="filterSelection('kiddie')">Kiddie</button>
+	</div>
 
-	    			<!--SALAD-->
-	    			<h4>Salads</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Caesar</p>
-	    					</button>
-	    					<p class="item-description">
-	    						romaine lettuce, croutons, parmesan cheese & caesar dressing | unlimited or for an extra $1.00, add a soup
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Garden Salad</p>
-	    					</button>
-	    					<p class="item-description">
-	    						lettuce, tomatoes, cucumbers, carrots, onions, croutons, parmesan cheese and your choice of dressing | unlimited or for an extra $1.00, add a soup
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
+	<!--Portfolio Gallery Grid-->
+	<div class="row">
+		<div class="column breakfast">
+			<div class="content">
+				<img src="mimages/pancakes.png" style="width: 100%;">
+				<h4>Pancakes</h4>
+				<p>
+					Description of the item will go here
+				</p>
+			</div>
+		</div>
+		<div class="column breakfast">
+			<div class="content">
+				<img src="mimages/pancakes.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column breakfast">
+			<div class="content">
+				<img src="mimages/pancakes.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
 
-	    			<!--SIDES-->
-	    			<h4>Sides</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">French fries</p>
-	    					</button>
-	    					<p class="item-description">
-	    						curly or shoestring fries seasoned to perfection
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Onion Rings</p>
-	    					</button>
-	    					<p class="item-description">
-	    						fresh cut onions, coated in batter and deep fried until golden brown
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Mashed Potatoes</p>
-	    					</button>
-	    					<p class="item-description">
-	    						creamy, mashed red potatoes with a hint of garlic, salt and pepper to taste
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Loaded Potato</p>
-	    					</button>
-	    					<p class="item-description">
-	    						baked potato loaded with butter, cheese, bacon bits and sour cream topped with scallions
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Broccoli</p>
-	    					</button>
-	    					<p class="item-description">
-	    						steamed broccoli with a thin slide of butter | add cheese for an addition $1.00
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Green Beans</p>
-	    					</button>
-	    					<p class="item-description">
-	    						steamed green beans lightly seasoned to perfection
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">House Made Coleslaw</p>
-	    					</button>
-	    					<p class="item-description">
-	    						base made with green cabbage, carrots and onions with a few other secret ingredients mixed with a flavorful creamy dressing to tie it all together
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Wild Rice</p>
-	    					</button>
-	    					<p class="item-description">
-	    						a delightful addition to any dish
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.99</button>
-	    				</div>
-	    			</div>
-				</section>
-			</main>
+		<div class="column starters">
+			<div class="content">
+				<img src="mimages/egg.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column starters">
+			<div class="content">
+				<img src="mimages/egg.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column starters">
+			<div class="content">
+				<img src="mimages/egg.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column handheld">
+			<div class="content">
+				<img src="mimages/toast.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column handheld">
+			<div class="content">
+				<img src="mimages/toast.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column handheld">
+			<div class="content">
+				<img src="mimages/toast.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column seafood">
+			<div class="content">
+				<img src="mimages/orange.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column seafood">
+			<div class="content">
+				<img src="mimages/orange.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column seafood">
+			<div class="content">
+				<img src="mimages/orange.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column ribs">
+			<div class="content">
+				<img src="mimages/fruitBagel.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column ribs">
+			<div class="content">
+				<img src="mimages/fruitBagel.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column ribs">
+			<div class="content">
+				<img src="mimages/fruitBagel.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column dinner">
+			<div class="content">
+				<img src="mimages/Chickenwaffles.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column dinner">
+			<div class="content">
+				<img src="mimages/Chickenwaffles.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column dinner">
+			<div class="content">
+				<img src="mimages/Chickenwaffles.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column beverages">
+			<div class="content">
+				<img src="mimages/drink.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column beverages">
+			<div class="content">
+				<img src="mimages/drink.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column beverages">
+			<div class="content">
+				<img src="mimages/drink.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column dessert">
+			<div class="content">
+				<img src="mimages/fruit.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column dessert">
+			<div class="content">
+				<img src="mimages/fruit.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column dessert">
+			<div class="content">
+				<img src="mimages/fruit.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+
+		<div class="column kiddie">
+			<div class="content">
+				<img src="mimages/tea.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column kiddie">
+			<div class="content">
+				<img src="mimages/tea.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
+		</div>
+		<div class="column kiddie">
+			<div class="content">
+				<img src="mimages/tea.png" style="width: 100%;">
+				<h4>Item Name</h4>
+				<p>
+					Item description will go here
+				</p>
+			</div>
 		</div>
 	</div>
 	<script src="menu.js"></script>	
