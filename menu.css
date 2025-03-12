@@ -33,109 +33,85 @@ body {
 	}
 }
 
-.header span {
-	font-size: 30px;
-	text-decoration: underline;
-	cursor: pointer;
+/*NAVBAR MENU*/
+.navbar {
+	background-color: #555;
+	width: 100%;
+	overflow: auto;
 }
 
-/*Sidebar Navigation*/
-.sidenav {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 60px;
+.navbar a {
+	padding: 12px;
+	color: white;
 	text-align: center;
-}
-
-.sidenav a {
-	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
+	font-size: 17px;
+	float: left;
+	width: 10%;
+}
+
+.navbar a:hover {
+	background-color: #000;
+}
+
+.navbar a.active {
+	background-color: #04aa6d;
+}
+
+@media screen and (max-width: 500px) {
+	.navbar a {
+		display: block;
+		text-align: left;
+		float: none;
+		width: 100%;
+	}
+}
+
+/*ROW AND COLUMNS*/
+.row {
+	margin: 10px -16px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+/*CONTENT*/
+.content {
+	background-color: white;
+	padding: 10px;
 	display: block;
-	transition: 0.3s;
 }
 
-.sidenav a:hover {
-	color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-	.sidenav {
-		padding-top: 15px;
-	}
-	.sidenav a {
-		font-size: 18px;
-	}
-}
-
-/*Main Content*/
-.main {
-	padding: 20px 16px;
-}
-
-.main h3 {
-	padding: 25px;
+.content p {
+	margin-top: 0;
+	padding-top: 0;
 	text-align: center;
+	font-style: italic;
+	font-size: 13px;
 }
 
-.main h4 {
-	padding-top: 31px;
-	text-decoration: underline;
-	text-transform: uppercase;
+.content span {
+	font-style: normal;
+	font-weight: bold;
 }
 
-/*Menu*/
-.main-menu {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-}
-
-/*Sub Menu*/
-.item-name {
+h4 {
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: left;
-	font-size: 17px;
-	display: flex;
-}
-
-.item-description {
-	margin-top: 0;
-	margin-bottom: 8px;
-	display: block;
-}
-
-.item-content-price {
-	margin-right: -10px;
-	text-align: right;
-	display: inline-flex;
-	flex-wrap: wrap;
-}
-
-.item-content-price button {
-	padding: 0 10px;
-}
-
-/*Footer*/
-footer {
+	padding-top: 0;
+	padding-bottom: 0;
 	text-align: center;
-	font-size: 17px;
-	letter-spacing: 1.25px;
 }
