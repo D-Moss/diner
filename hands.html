@@ -5,448 +5,323 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="hands.css">
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Big Header-->
+	<!--BIG HEADER-->
 	<div class="header">
 		<h1>
 			<a href="index.html" title="home">Tovana's Homestyle Restaurant</a>
 		</h1>
-		<p>Click <span onclick="openNav()">here</span> to see our full menu</p>
 	</div>
 
-	<!--Navigation Sidebar Menu-->
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<!--NAVIGATION BAR-->
+	<div class="navbar">
+		<a href="menu.html">Main Menu</a>
 		<a href="breakfast.html">Breakfast</a>
 		<a href="starters.html">Starters</a>
-		<a href="hands.html">Handhelds</a>
+		<a href="hands.html" class="active">Handhelds</a>
 		<a href="seafood.html">Seafood</a>
 		<a href="ribs.html">Ribs & Steaks</a>
 		<a href="dinner.html">Dinner</a>
 		<a href="drink.html">Beverages</a>
-		<a href="dessert.html">Dessert</a>
+		<a href="dessert.html">Desserts</a>
 		<a href="kids.html">Kiddie</a>
 	</div>
 
-	<!--Handheld Sandwiches Content-->
-	<div class="main">
-		<h1>Handheld Sandwiches</h1>
-		<div class="main-menu">
-			<main>
-				<section>
-					<h3>Handheld Sandwiches</h3>
+	<!--HANDHELD CONTENT-->
+	<div class="row">
+		<h2>Burgers</h2>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Philly Big Back Burger</h4>
+				<p>
+					1/2lb burger with sauteed mushrooms, onions, peppers, melted american cheese, bacon, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Bacon Blue Cheese Burger</h4>
+				<p>
+					1/2lb burger with sauteed onions, blue cheese, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Pizza Burger</h4>
+				<p>
+					1/2lb burger on a toasted, garlic brioche bun with tomato sauce, pepperoni, mushrooms and melted mozzarella cheese served with fries or onion rings and cole slaw <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Texas Burger</h4>
+				<p>
+					1/2lb burger with bacon, carmelized onions, cheddar cheese, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Tovana Bacon Cheeseburger</h4>
+				<p>
+					1/2lb burger with hash browns, bacon, egg, carmelized onions, melted cheddar cheese, slice of tomato on brioche bun; choice of fries or onion rings, soup or salad and a drink <br><span class="price">$19.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Turkey Cheeseburger</h4>
+				<p>
+					turkey burger topped with cheese, lettuce, tomatoes and carmelized onions served with fries or onion rings and cole slaw <br><span class="price">$10.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Turkey Bacon Burger</h4>
+				<p>
+					turkey burger topped with cheese, lettuce, tomatoes, mushrooms and onions served with fries or onion rings and cole slaw <br><span class="price">$10.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-					<!--BURGERS-->
-					<h4>Burgers</h4>
-					<div class="item-container">
-						<div class="item-content">
-							<button class="item-btn btn-link">
-								<p class="item-name">Philly Big Back Burger</p>
-							</button>
-							<p class="item-description">
-								1/2lb burger with sauteed mushrooms, onions, peppers, melted american cheese, bacon, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw
-							</p>
-						</div>
-						<div class="item-content-price">
-							<button>$11.99</button>
-						</div>
-					</div>
-					<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Bacon Blue Cheese Burger</p>
-	    					</button>
-	    					<p class="item-description">
-    							1/2lb burger with sauteed onions, blue cheese, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw
-    						</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Pizza Burger</p>
-    						</button>
-    						<p class="item-description">
-    							1/2lb burger on a toasted, garlic brioche bun with tomato sauce, pepperoni, mushrooms and melted mozzarella cheese served with fries or onion rings and cole slaw
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$11.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Texas Burger</p>
-    						</button>
-    						<p class="item-description">
-    							1/2lb burger with bacon, carmelized onions, cheddar cheese, lettuce and tomatoes on a brioche bun served with fries or onion rings and cole slaw
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$11.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Tovana Bacon Cheeseburger</p>
-    						</button>
-    						<p class="item-description">
-    							1/2lb burger topped with hash browns, bacon, egg, carmelized onions, melted cheddar cheese and a slice of tomatoe on a brioche bun with your choice of fries or onion rings, soup or salad and a drink
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$19.99</button>
-    					</div>
-    				</div>
+	<!--CHEESESTEAKS-->
+	<div class="row">
+		<h2>Cheese Steaks</h2>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Plain Steak</h4>
+				<p>
+					chopped rib eye or chicken, served on a roll with your choice of peppers and onions | side of fries for extra $3.99 <br><span class="price">19.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Cheesesteak</h4>
+				<p>
+					chopped rib eye or chicken, cheese and onions served on a roll | side of fries for extra $3.99 <br><span class="price">10.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Bacon Cheesesteak</h4>
+				<p>
+					chopped rib eye or chicken, cheese, bacon and onions served on a roll | side of fries for extra $3.99 <br><span class="price">11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hand">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Mushroom Cheesesteak</h4>
+				<p>
+					chopped rib eye or chicken, cheese, mushrooms and onions served on a roll | side of fries for extra $3.99 <br><span class="price">11.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-    				<!--STEAKS-->
-	    			<h4>Cheesesteaks</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Plain Steak</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chopped rib eye or chicken, served on a roll with your choice of peppers and onions | side of fries for extra $3.99
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Cheesesteak</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chopped rib eye or chicken, cheese and onions served on a roll | side of fries for extra $3.99
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$10.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Bacon Cheesesteak</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chopped rib eye or chicken, cheese, bacon and onions served on a roll | side of fries for extra $3.99
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Mushroom Cheesesteak</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chopped rib eye or chicken, cheese, mushrooms and onions served on a roll | side of fries for extra $3.99
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
+	<!--CHICKEN-->
+	<div class="row">
+		<h2>Chicken Sandwiches</h2>
+		<div class="column csandwich">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Grilled Chicken Sandwich</h4>
+				<p>
+					grilled chicken breast, with lettuce and tomatoes on a kaiser roll served with french fries <br><span class="price">10.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column csandwich">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Bar-b-que Chicken</h4>
+				<p>
+					deep fried chicken breast, with bbq sauce, bacon, melted provolone cheese on a kaiser roll served with french fries <br><span class="price">10.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column csandwich">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Cordon Bleu</h4>
+				<p>
+					juicy piece of chicken topped with slices of ham and melted Swiss cheese nestled on a kaiser roll with a side of fries <br><span class="price">10.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column csandwich">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Honey Glazed Chicken</h4>
+				<p>
+					deep fried chicken breast with a honey glaze on a kaiser roll served with fries <br><span class="price">10.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-    				<!--CHICKEN-->
-    				<h4>Chicken</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Grilled Chicken Sandwich</p>
-    						</button>
-    						<p class="item-description">
-    							grilled chicken breast, with lettuce and tomatoes on a kaiser roll served with french fries
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Bar-b-que Chicken</p>
-	    					</button>
-	    					<p class="item-description">
-	    						deep fried chicken breast, dipped in bar-b-que with bacon, melted provolone chhese on a kaiser roll served with french fries
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$10.99</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Chicken Cordon Bleu</p>
-    						</button>
-    						<p class="item-description">
-    							chicken with ham and swiss cheese on a kaiser roll with a side of fries
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$10.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Honey Glazed Chicken</p>
-	    					</button>
-	    					<p class="item-description">
-	    						deep fried chicken breast with a honey glaze on a kaiser roll served with fries
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$10.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Turkey Cheeseburger</p>
-	    					</button>
-	    					<p class="item-description">
-	    						turkey burger topped with cheese, lettuce, tomatoes and carmelized onions served with fries or onion rings and cole slaw
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$10.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Turkey Bacon Burger</p>
-	    					</button>
-	    					<p class="item-description">
-	    						turkey burger topped with cheese, lettuce, tomatoes, mushrooms and onions served with fries or onion rings and cole slaw
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$10.99</button>
-	    				</div>
-	    			</div>
+	<!--COLD SANDWICHES-->
+	<div class="row">
+		<h2>Cold Sandwiches</h2>
+		<div class="column cold">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Ham and Cheese</h4>
+				<p>
+					ham and cheese with with lettuce and tomatoes served on white or wheat bread with a pickle and chips <br><span class="price">9.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cold">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Tuna and Cheese</h4>
+				<p>
+					tuna, swiss cheese, lettuce and tomatoes on white or wheat bread with a pickle and chips <br><span class="price">9.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cold">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Sandwich</h4>
+				<p>
+					chicken breast with lettuce and tomatoes served on white or wheat bread with a side of pickles and chips <br><span class="price">9.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cold">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Reuben</h4>
+				<p>
+					cornbeef, swiss cheese, sauerkraut and russian dressing on rye bread served with a pickle and chips <br><span class="price">$9.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cold">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Cornbeef Special</h4>
+				<p>
+					cornbeef, cheese, cole slaw and russian dressing on rye bread served with a pickle and chips <br><span class="price">$9.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-	    			<!--COLD SANDWICHES-->
-	    			<h4>Cold Sandwiches</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Ham and Cheese</p>
-	    					</button>
-	    					<p class="item-description">
-	    						ham and cheese with with lettuce and tomatoes served on white or wheat bread with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Tuna and Cheese</p>
-	    					</button>
-	    					<p class="item-description">
-	    						tuna, swiss cheese, lettuce and tomatoes on white or wheat bread with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chicken Sandwich</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chicken breast with lettuce and tomatoes served on white or wheat bread with a side of pickles and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Reuben</p>
-	    					</button>
-	    					<p class="item-description">
-	    						cornbeef, swiss cheese, sauerkraut and russian dressing on rye bread served with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Cornbeef Special</p>
-	    					</button>
-	    					<p class="item-description">
-	    						cornbeef, cheese, cole slaw and russian dressing on rye bread served with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$9.99</button>
-	    				</div>
-	    			</div>
-
-	    			<!--HOAGIES-->
-	    			<h4>Hoagies</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Ham and Cheese</p>
-	    					</button>
-	    					<p class="item-description">
-	    						ham and cheese with with lettuce and tomatoes and onions topped with hoagie dressing served on a white or wheat hoagie roll with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Turkey and Cheese</p>
-	    					</button>
-	    					<p class="item-description">
-	    						turkey and cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Buffalo Chicken</p>
-	    					</button>
-	    					<p class="item-description">
-	    						buffalo chicken, cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Tuna Hoagie</p>
-	    					</button>
-	    					<p class="item-description">
-	    						tuna with swiss cheese, onions, lettuce, tomatoes with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Italian Hoagie</p>
-	    					</button>
-	    					<p class="item-description">
-	    						a white or wheat hoagie roll, topped with ham, salami, capicola, provolone cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing served with a pickle and chips
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-
-	    			<!--WRAPS-->
-	    			<h4>Wraps</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Grilled Chicken</p>
-	    					</button>
-	    					<p class="item-description">
-	    						grilled chicken, lettuce, tomatoes, onions, with provolone cheese on a wrap
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Buffalo Chicken Wrap</p>
-	    					</button>
-	    					<p class="item-description">
-	    						grilled buffalo chicken, cheese, lettuce, tomatoes, bacon with a drizzle of ranch dressing on a wrap
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chicen Caesar</p>
-	    					</button>
-	    					<p class="item-description">
-	    						wrap filled with seasoned grilled chicken, romaine lettuce, caesar dressing
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chicken Fajita Wrap</p>
-	    					</button>
-	    					<p class="item-description">
-	    						strips of lite cajun chicken, with peppers, onions, lettuce, tomatoes and salsa
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Turkey Club</p>
-	    					</button>
-	    					<p class="item-description">
-	    						wrap with may spread, sliced turkey, cheese, crispy bacon, lettuce and tomatoes served with a pickle
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$11.99</button>
-	    				</div>
-	    			</div>
-				</section>
-			</main>
+	<!--HOAGIES-->
+	<div class="row">
+		<h2>Hoagies & Wraps</h2>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Ham and Cheese</h4>
+				<p>
+					ham and cheese with with lettuce and tomatoes and onions topped with hoagie dressing served on a white or wheat hoagie roll with a pickle and chips <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Turkey and Cheese</h4>
+				<p>
+					turkey and cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Buffalo Chicken</h4>
+				<p>
+					buffalo chicken, cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Tuna Hoagie</h4>
+				<p>
+					tuna with swiss cheese, onions, lettuce, tomatoes with a drizzle of hoagie dressing on a white or wheat roll with a pickle and chips <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Italian Hoagie</h4>
+				<p>
+					ham, salami, capicola, provolone cheese, lettuce, tomatoes and onions with a drizzle of hoagie dressing served on white or wheat roll with a pickle and chips <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Grilled Chicken Wrap</h4>
+				<p>
+					 tender slices of grilled chicken, fresh lettuce, juicy tomatoes, thinly sliced onions, with provolone cheese and a drizzle of honey glaze on a wrap <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Buffalo Grilled Chicken Wrap</h4>
+				<p>
+					buffalo chicken, cheese, lettuce, tomatoes, bacon with a drizzle of ranch dressing <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Caesar</h4>
+				<p>
+					wrap filled with seasoned grilled chicken, romaine lettuce, tomatoes, caesar dressing <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Fajita Wrap</h4>
+				<p>
+					strips of lite cajun chicken, with peppers, onions, lettuce, tomatoes and salsa <br><span class="price">$11.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column hoagie">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Turkey Club</h4>
+				<p>
+					wrap with may spread, sliced turkey, cheese, crispy bacon, lettuce and tomatoes served with a pickle <br><span class="price">$11.99</span>
+				</p>
+			</div>
 		</div>
 	</div>
 	<script src="menu.js"></script>	

@@ -1,0 +1,29 @@
+.row {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #c2c2c2;
+}
+
+h2 {
+	text-align: center;
+}
+
+.hand img {
+	border-radius: 10px;
+}
+
+.csandwich img {
+	border-radius: 10px;
+}
+
+.cold img {
+	border-radius: 10px;
+}
+
+.hoagie img {
+	border-radius: 10px;
+}
+
+.content {
+	background-color: #c2c2c2;
+}
