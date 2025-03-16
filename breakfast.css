@@ -1,10 +1,15 @@
 .row {
 	margin-top: 0;
+	margin-bottom: 0;
 	background-color: silver;
 }
 
+h2 {
+	text-align: center;
+}
+
 .breakfast img {
-	border-radius: 4%;
+	border-radius: 10px;
 }
 
 .content {
