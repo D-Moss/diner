@@ -5,100 +5,155 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="ribs.css">
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Big Header-->
+	<!--BIG HEADER-->
 	<div class="header">
 		<h1>
 			<a href="index.html" title="home">Tovana's Homestyle Restaurant</a>
 		</h1>
-		<p>Click <span onclick="openNav()">here</span> to see our full menu</p>
 	</div>
 
-	<!--Navigation Sidebar Menu-->
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<!--NAVIGATION BAR-->
+	<div class="navbar">
+		<a href="menu.html">Main Menu</a>
 		<a href="breakfast.html">Breakfast</a>
 		<a href="starters.html">Starters</a>
 		<a href="hands.html">Handhelds</a>
 		<a href="seafood.html">Seafood</a>
-		<a href="ribs.html">Ribs & Steaks</a>
+		<a href="ribs.html" class="active">Ribs & Steaks</a>
 		<a href="dinner.html">Dinner</a>
 		<a href="drink.html">Beverages</a>
-		<a href="dessert.html">Dessert</a>
+		<a href="dessert.html">Desserts</a>
 		<a href="kids.html">Kiddie</a>
 	</div>
 
-	<!--Steaks & Ribs Content-->
-	<div class="main">
-		<h1>Meats</h1>
-		<div class="main-menu">
-			<main>
-				<section>
-					<h3>Steaks & Ribs</h3>
-
-					<!--STEAKS-->
-					<h4>Steaks</h4>
-					<div class="item-container">
-						<div class="item-content">
-							<button class="item-btn btn-link">
-								<p class="item-name">New York Strip</p>
-							</button>
-							<p class="item-description">
-								12oz cut, seasoned perfectly for great flavor served with 2 sides
-							</p>
-						</div>
-						<div class="item-content-price">
-							<button>$27.99</button>
-						</div>
-					</div>
-					<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Rib Eye</p>
-	    					</button>
-	    					<p class="item-description">
-    							juicy 12oz marbled steak grilled served with 2 sides
-    						</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$25.99</button>
-	    				</div>
-    				</div>
-
-    				<!--RIBS-->
-    				<h4>Ribs</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Baby Back Ribs</p>
-    						</button>
-    						<p class="item-description">
-    							full rack of ribs with your choice of sauce served with 2 sides
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$27.99</button>
-    					</div>
-    				</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Baby Back Ribs</p>
-	    					</button>
-	    					<p class="item-description">
-	    						half rack of ribs with your choice of sauce served with 2 sides
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$19.99</button>
-	    				</div>
-    				</div>
-				</section>
-			</main>
+	<!--Ribs Content-->
+	<div class="row">
+		<h2>Steaks & Ribs</h2>
+		<div class="column steak">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>New York Strip</h4>
+				<p>
+					12oz cut, seasoned perfectly for great flavor served with 2 sides <br><span class="price">$27.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column steak">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Rib Eye</h4>
+				<p>
+					juicy 12oz marbled steak grilled served with 2 sides <br><span class="price">$25.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column steak">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Baby Back Ribs</h4>
+				<p>
+					full rack of ribs with your choice of sauce served with 2 sides <br><span class="price">$27.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column steak">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Baby Back Ribs</h4>
+				<p>
+					half rack of ribs with your choice of sauce served with 2 sides <br><span class="price">$19.99</span>
+				</p>
+			</div>
 		</div>
 	</div>
-	<script src="menu.js"></script>	
+
+	<div class="row">
+		<h2>Sides</h2>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Fries</h4>
+				<p>
+					seasoned fries <br><span>$3.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Onion Rings</h4>
+				<p>
+					grilled salmon that is bursting with flavor, a touch of fresh squeezed lemon juice and garnished with parsley and your choice of 2 sides <br><span>$19.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Mashed Potatoes</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Brussel Sprouts</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Baked Potato</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Brocolli</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Green Beans</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Cole Slaw</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column rsides">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Wild Rice</h4>
+				<p>
+					beautifully seasoned grilled tilapia with a touch of lemon juice and your choice of 2 sides <br><span>$17.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

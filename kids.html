@@ -5,20 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="kids.css">
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Big Header-->
+	<!--BIG HEADER-->
 	<div class="header">
 		<h1>
 			<a href="index.html" title="home">Tovana's Homestyle Restaurant</a>
 		</h1>
-		<p>Click <span onclick="openNav()">here </span> to see our full menu</p>
 	</div>
 
-	<!--Navigation Sidebar Menu-->
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<!--NAVIGATION BAR-->
+	<div class="navbar">
+		<a href="menu.html">Main Menu</a>
 		<a href="breakfast.html">Breakfast</a>
 		<a href="starters.html">Starters</a>
 		<a href="hands.html">Handhelds</a>
@@ -26,388 +26,271 @@
 		<a href="ribs.html">Ribs & Steaks</a>
 		<a href="dinner.html">Dinner</a>
 		<a href="drink.html">Beverages</a>
-		<a href="dessert.html">Dessert</a>
-		<a href="kids.html">Kiddie</a>
+		<a href="dessert.html">Desserts</a>
+		<a href="kids.html" class="active">Kiddie</a>
 	</div>
 
-	<!--Kids Content-->
-	<div class="main">
-		<h1>Kiddie</h1>
-		<div class="main-menu">
-			<main>
-				<section>
-					<h3 id="pancakes">Kids Menu</h3>
+	<!--Kids Menu-->
+	<div class="row">
+		<h2>Breakfast</h2>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Jr. Pancakes</h4>
+				<p>
+					3 buttermilk pancakes with your choice of meat and eggs | add cheese for $1.00 extra <br><span class="price">$5.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Tovana's Pancakes</h4>
+				<p>
+					3 chocolate chip pancakes topped with whip cream and a cherry served with 2 pieces of meat and eggs | add cheese for $1.00 <br><span class="price">$5.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Birthday Pancakes</h4>
+				<p>
+					3 jr pancakes with sprinkles, 2 pieces of meat and eggs | cheese is $1.00 extra <br><span class="price">$5.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>French Toast Sticks</h4>
+				<p>
+					cinnamon french toast sticks, 2 pieces of meat and eggs with cheese <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Tater Tots</h4>
+				<p>
+					tater tots with a sprinkle of salt and pepper <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Grits</h4>
+				<p>
+					small serving of grits with butter | add cheese for $0.50 <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Eggs</h4>
+				<p>
+					scrambled eggs | add cheese for $0.50 <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Meat</h4>
+				<p>
+					your choice of meat: bacon, sausage, ham or scrapple <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Fruit Bowl</h4>
+				<p>
+					seasonal fruit <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Yogurt</h4>
+				<p>
+					plain, strawberry, or mixed berry <br><span class="price">$1.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cake">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Applesauce</h4>
+				<p>
+					plain or with a sprinkle of cinnamon <br><span class="price">$1.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-					<!--BREAKFAST-->
-					<h4>Breakfast</h4>
-					<div class="item-container">
-						<div class="item-content">
-							<button class="item-btn btn-link">
-								<p class="item-name">Jr. Pancakes</p>
-							</button>
-							<p class="item-description">
-								3 buttermilk pancakes with your choice of meat and eggs | add cheese for $1.00 extra
-							</p>
-						</div>
-						<div class="item-content-price">
-							<button>$5.49</button>
-						</div>
-					</div>
-					<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Tovana's Pancakes</p>
-	    					</button>
-	    					<p class="item-description">
-    							3 chocolate chip pancakes topped with whip cream and a cherry served with 2 pieces of meat and eggs | add cheese for $1.00
-    						</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$5.99</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Birthday Pancakes</p>
-    						</button>
-    						<p class="item-description">
-    							3 jr pancakes with sprinkles, 2 pieces of meat and eggs | cheese is $1.00 extra
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$5.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">French Toast Sticks</p>
-    						</button>
-    						<p class="item-description">
-    							cinnamon french toast sticks, 2 pieces of meat and eggs with cheese
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$6.99</button>
-    					</div>
-    				</div>
+	<div class="row">
+		<h2>Lunch & Dinner</h2>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Cheesey Pizza</h4>
+				<p>
+					personal cheese pizza with a side and drink <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Tenders</h4>
+				<p>
+					chicken tenders with your choice of dipping sauce served with a side and a drink <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Kids Burger</h4>
+				<p>
+					burger served with a side and a drink | add cheese to burger for $0.50 <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Cheesey Mac & Cheese</h4>
+				<p>
+					bowl of macoroni and cheese served with a side and a drink <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chicken Alfredo</h4>
+				<p>
+					tender pieces of chicken breast served over a bed of fettuccine pasta, all coated in a rich and velvety Alfredo sauce, side and drink included <br><span class="price">$6.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-    				<!--BREAKFAST SIDES-->
-    				<h4>Breakfast Sides</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Tater Tots</p>
-    						</button>
-    						<p class="item-description">
-    							tater tots with a sprinkle of salt and pepper
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Grits</p>
-	    					</button>
-	    					<p class="item-description">
-	    						small serving of grits with butter | add cheese for $0.50
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.99</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Eggs</p>
-    						</button>
-    						<p class="item-description">
-    							scrambled eggs | add cheese for $0.50
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Meat</p>
-	    					</button>
-	    					<p class="item-description">
-	    						your choice of meat: bacon, sausage, ham or scrapple
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Fruit Bowl</p>
-	    					</button>
-	    					<p class="item-description">
-	    						seasonal fruit
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Yogurt</p>
-	    					</button>
-	    					<p class="item-description">
-	    						plain, strawberry, or mixed berry
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$1.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Applesauce</p>
-	    					</button>
-	    					<p class="item-description">
-	    						plain or with a sprinkle of cinnamon
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$1.99</button>
-	    				</div>
-	    			</div>
+	<div class="row">
+		<h2>Sides</h2>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Curly Fries</h4>
+				<p>
+					spiral shaped potatoes, lightly seasoned and fried to crispy perfection <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Broccoli</h4>
+				<p>
+					steamed broccoli topped with butter and seasoned with salt and pepper <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Mashed Potatoes</h4>
+				<p>
+					smooth and creamy potatoes topped with butter and seasoned with salt and pepper <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdinner">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Fruit Bowl</h4>
+				<p>
+					small bowl of seasonal fruit <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-	    			<!--LUNCH/DINNER-->
-	    			<h4>Lunch & Dinner</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Cheesey Pizza</p>
-	    					</button>
-	    					<p class="item-description">
-	    						personal cheese pizza with a side and drink
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$6.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chicken Tenders</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chicken tenders with your choice of dipping sauce served with a side and a drink
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$6.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Kids Burger</p>
-	    					</button>
-	    					<p class="item-description">
-	    						burger served with a side and a drink | add cheese to burger for $0.50
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$6.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Cheesey Mac & Cheese</p>
-	    					</button>
-	    					<p class="item-description">
-	    						bowl of macoroni and cheese served with a side and a drink
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$6.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chicken Alfredo</p>
-	    					</button>
-	    					<p class="item-description">
-	    						tender pieces of chicken breast served over a bed of fettuccine pasta, all coated in a rich and velvety Alfredo sauce, side and drink included
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$6.99</button>
-	    				</div>
-	    			</div>
+	<div class="row">
+		<h2>Drinks</h2>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Milk</h4>
+				<p>
+					regular, chocolate, strawberry <br><span class="price">$1.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Juice</h4>
+				<p>
+					apple or orange juice <br><span class="price">$1.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Fountain Drink</h4>
+				<p>
+					small cup of the standard size drinks | pepsi, mountain dew, fanta, canada dry, orange, fruit punch, sweet tea, unsweeten tea, lemon tea and peach tea <br><span class="price">$1.99</span>
+				</p>
+			</div>
+		</div>
+	</div>
 
-	    			<!--SIDES-->
-	    			<h4>More Sides</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Curly Fries</p>
-	    					</button>
-	    					<p class="item-description">
-	    						spiral shaped potatoes, lightly seasoned and fried to crispy perfection
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Broccoli</p>
-	    					</button>
-	    					<p class="item-description">
-	    						steamed broccoli topped with butter and seasoned with salt and pepper
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Mashed Potatoes</p>
-	    					</button>
-	    					<p class="item-description">
-	    						smooth and creamy potatoes topped with butter and seasoned with salt and pepper
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Fruit Bowl</p>
-	    					</button>
-	    					<p class="item-description">
-	    						small bowl of seasonal fruit
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			
-	    			<!--DRINKS-->
-	    			<h4>Drinks</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Milk</p>
-	    					</button>
-	    					<p class="item-description">
-	    						regular, chocolate, strawberry
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$1.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Juice</p>
-	    					</button>
-	    					<p class="item-description">
-	    						apple or orange juice
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$1.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Fountain Drink</p>
-	    					</button>
-	    					<p class="item-description">
-	    						small cup of the standard size drinks | pepsi, mountain dew, fanta, canada dry, orange, fruit punch, sweet tea, unsweeten tea, lemon tea and peach tea
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$1.99</button>
-	    				</div>
-	    			</div>
-	    			
-	    			<!--DESSERT-->
-	    			<h4>Dessert</h4>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Jr Milkshake</p>
-	    					</button>
-	    					<p class="item-description">
-	    						chocolate, vanilla or oreo milkshake
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Jr Banana Split</p>
-	    					</button>
-	    					<p class="item-description">
-	    						a split banana as the base topped with scoops of ice cream and various toppings
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.99</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Ice Cream</p>
-	    					</button>
-	    					<p class="item-description">
-	    						jr bowl of ice cream | chocolate, vanilla or strawberry
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-	    			<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Chocolate Chip Cookies</p>
-	    					</button>
-	    					<p class="item-description">
-	    						3 cookies
-	    					</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$2.49</button>
-	    				</div>
-	    			</div>
-				</section>
-			</main>
+	<div class="row">
+		<h2>Dessert</h2>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Jr Milkshake</h4>
+				<p>
+					chocolate, vanilla or oreo milkshake <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Jr Banana Split</h4>
+				<p>
+					a split banana as the base topped with scoops of ice cream and various toppings <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Ice Cream</h4>
+				<p>
+					jr bowl of ice cream | chocolate, vanilla or strawberry <br><span class="price">$2.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column kdrinks">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Chocolate Chip Cookies</h4>
+				<p>
+					3 homemade chocolate chip cookies <br><span class="price">$2.49</span>
+				</p>
+			</div>
 		</div>
 	</div>
 	<script src="menu.js"></script>	

@@ -5,139 +5,99 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="drink.css">
 	<title>Tovana's</title>
 </head>
 <body>
-	<!--Big Header-->
+	<!--BIG HEADER-->
 	<div class="header">
 		<h1>
 			<a href="index.html" title="home">Tovana's Homestyle Restaurant</a>
 		</h1>
-		<p>Click <span onclick="openNav()">here </span> to see our full menu</p>
 	</div>
 
-	<!--Navigation Sidebar Menu-->
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<!--NAVIGATION BAR-->
+	<div class="navbar">
+		<a href="menu.html">Main Menu</a>
 		<a href="breakfast.html">Breakfast</a>
 		<a href="starters.html">Starters</a>
 		<a href="hands.html">Handhelds</a>
 		<a href="seafood.html">Seafood</a>
 		<a href="ribs.html">Ribs & Steaks</a>
 		<a href="dinner.html">Dinner</a>
-		<a href="drink.html">Beverages</a>
-		<a href="dessert.html">Dessert</a>
+		<a href="drink.html" class="active">Beverages</a>
+		<a href="dessert.html">Desserts</a>
 		<a href="kids.html">Kiddie</a>
 	</div>
 
 	<!--Beverage Content-->
-	<div class="main">
-		<h1>Beverges</h1>
-		<div class="main-menu">
-			<main>
-				<section>
-					<h3 id="pancakes">Drink Options</h3>
-
-					<!--DRINKS-->
-					<h4>Free Refills</h4>
-					<div class="item-container">
-						<div class="item-content">
-							<button class="item-btn btn-link">
-								<p class="item-name">Water</p>
-							</button>
-							<p class="item-description">
-								regular
-							</p>
-						</div>
-						<div class="item-content-price">
-							<button>$1.99</button>
-						</div>
-					</div>
-					<div class="item-container">
-						<div class="item-content">
-							<button class="item-btn btn-link">
-								<p class="item-name">Flavor Water</p>
-							</button>
-							<p class="item-description">
-								lemon, berry, or cucumber
-							</p>
-						</div>
-						<div class="item-content-price">
-							<button>$3.49</button>
-						</div>
-					</div>
-					<div class="item-container">
-	    				<div class="item-content">
-	    					<button class="item-btn btn-link">
-	    						<p class="item-name">Soda</p>
-	    					</button>
-	    					<p class="item-description">
-    							pepsi, mountain dew, fanta, canada dry, orange, fruit punch
-    						</p>
-	    				</div>
-	    				<div class="item-content-price">
-	    					<button>$3.95</button>
-	    				</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Diet Soda</p>
-    						</button>
-    						<p class="item-description">
-    							pepsi, orange, canada dry
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Iced Tea</p>
-    						</button>
-    						<p class="item-description">
-    							sweet tea, unsweeten tea, lemon, peach
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$2.99</button>
-    					</div>
-    				</div>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Lemonades</p>
-    						</button>
-    						<p class="item-description">
-    							lemonade, strawberry lemonade, limeade
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$3.49</button>
-    					</div>
-    				</div>
-
-    				<!--PAY PER CUP-->
-    				<h4>Frozen</h4>
-    				<div class="item-container">
-    					<div class="item-content">
-    						<button class="item-btn btn-link">
-    							<p class="item-name">Lemonade</p>
-    						</button>
-    						<p class="item-description">
-    							an icy twist on the classic lemonade
-    						</p>
-    					</div>
-    					<div class="item-content-price">
-    						<button>$4.49</button>
-    					</div>
-    				</div>
-				</section>
-			</main>
+	<div class="row">
+		<h2>Beverages</h2>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Water</h4>
+				<p>
+					ice water <br><span class="price">$3.95</span>
+				</p>
+			</div>
+		</div>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Flavor Water</h4>
+				<p>
+					lemon, berry, or cucumber <br><span class="price">$3.95</span>
+				</p>
+			</div>
+		</div>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Soda</h4>
+				<p>
+					pepsi, mountain dew, fanta, canada dry, orange, fruit punch <br><span class="price">$3.95</span>
+				</p>
+			</div>
+		</div>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Diet Soda</h4>
+				<p>
+					pepsi, orange, canada dry <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Iced Tea</h4>
+				<p>
+					sweet tea, unsweeten tea, lemon, peach <br><span class="price">$2.99</span>
+				</p>
+			</div>
+		</div>
+		<div class="column drink">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Lemonades</h4>
+				<p>
+					lemonade, strawberry lemonade, limeade <br><span class="price">$3.49</span>
+				</p>
+			</div>
+		</div>
+		<div class="column cup">
+			<div class="content">
+				<img src="app/1.png" style="width: 100%;">
+				<h4>Lemonade</h4>
+				<p>
+					an icy twist on the classic lemonade <br><span class="price">$4.49</span>
+				</p>
+			</div>
 		</div>
 	</div>
+
 	<script src="menu.js"></script>	
 </body>
 </html>
