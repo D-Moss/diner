@@ -8,7 +8,11 @@ h2 {
 	text-align: center;
 }
 
-.apps img {
+.steak img {
+	border-radius: 10px;
+}
+
+.rsides img {
 	border-radius: 10px;
 }
 

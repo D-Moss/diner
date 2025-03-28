@@ -8,7 +8,23 @@ h2 {
 	text-align: center;
 }
 
-.apps img {
+.kbreakfast img {
+	border-radius: 10px;
+}
+
+.kdinner img {
+	border-radius: 10px;
+}
+
+.ksides img {
+	border-radius: 10px;
+}
+
+.kdrinks img {
+	border-radius: 10px;
+}
+
+.kdessert img {
 	border-radius: 10px;
 }
 

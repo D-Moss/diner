@@ -8,7 +8,15 @@ h2 {
 	text-align: center;
 }
 
-.apps img {
+.cake img {
+	border-radius: 10px;
+}
+
+.pie img {
+	border-radius: 10px;
+}
+
+.ice img {
 	border-radius: 10px;
 }
 

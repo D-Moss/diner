@@ -8,7 +8,11 @@ h2 {
 	text-align: center;
 }
 
-.apps img {
+.seafood img {
+	border-radius: 10px;
+}
+
+.ssides img {
 	border-radius: 10px;
 }
 
