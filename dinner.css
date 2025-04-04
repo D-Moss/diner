@@ -1,6 +1,8 @@
 .row {
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #c3c3c3;
 }
 
