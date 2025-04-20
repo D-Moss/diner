@@ -2,129 +2,129 @@
 	box-sizing: border-box;
 }
 
+body, h1, h2,
+h3, h4, h5, h6, {
+	font-family: "Monserrat", sans-serif;
+}
+
 body {
 	margin: 0;
+	background-image: radial-gradient(circle, #000000, #c89116);
+	color: red;
 }
 
-/*Big Header*/
-.top-right {
-	position: absolute;
-	top: 8px;
-	right: 16px;
-}
-
-.centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.header {
-	padding: 80px;
-	background-image: url("images/Image30-1536x1153.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 775px;
-}
-
-.nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	top: 0;
-	left: 0;
-	width: 100%;
-	position: absolute;
-	z-index: 100;
-}
-
-.nav li {
-	text-decoration: none;
-	list-style-type: none;
-	padding: 60px 15px;
-}
-
-.nav li a {
-	color: #1e263f;
-	background-color: transparent;
-	font-size: 21px;
-	font-weight: 750;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1.75px;
-}
-
-/*Home Page*/
-.intro {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	height: 600px;
-}
-
-.intro header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
-}
-
-.intro h1 {
+/*Navigation Bar*/
+.sidebar {
+	margin: 0;
 	padding: 0;
-	text-align: center;
+	background-color: black;
+	position: fixed;
+	width: 200px;
+	height: 100%;
+}
+
+.sidebar a {
+	padding: 12px 24px;
 	color: white;
-	font-size: 64px;
-	font-weight: 700;
-	text-align: center;
-}
-
-/*About Section*/
-.about-section {
-	background-color: #f1f1f1;
-	padding: 75px 0;
-}
-
-.about-section p {
-	margin: auto;
-	text-align: justify;
-	font-size: 17px;
-	line-height: 1.75;
-	width: 75%;
-}
-
-.about-section h5 {
-	margin-top: 20px;
-	text-align: center;
-}
-
-.aboutrow:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.aboutcol {
-	padding: 10px;
-	float: left;
-	width: 20%;
-}
-
-/*Featured Photos*/
-.main {
-	margin: auto;
-	padding: 50px 20px;
-	max-width: 2100px;
-}
-
-.main h2,
-.main p {
-	text-align: center;
-}
-
-.main h2 a {
+	display: block;
 	text-decoration: none;
+}
+
+.sidebar a:hover {
+	background-color: grey;
+	color: black;
+	opacity: 0.6;
+}
+
+.sidebar-icons i {
+	margin-right: 16px;
+	color: white;
+	font-size: 32px;
+}
+
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+
+/*Main Content*/
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+	margin-left: 200px;
+	padding: 12px 24px;
+}
+
+#home {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+#home h1 {
+	font-size: 64px;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+	#main {
+		margin-left: 0;
+	}
+}
+
+/*About*/
+#about {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: grey;
+	text-align: justify;
+}
+
+#about h2 {
+	color: lightgrey;
+}
+
+#about p {
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+/*Menu*/
+#menu {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: grey;
+}
+#menu h2,
+#menu p {
+	text-align: center;
+}
+
+#menu h2 a {
 	color: #f4c6db;
+	text-decoration: none;
+}
+
+#menu i {
+	padding: 16px;
+	color: blue;
 }
 
 .row {
@@ -147,65 +147,88 @@ body {
 	width: 25%;
 }
 
-/*Contact Section*/
-.contact-section {
-	background-color: #f1f1f1;
-	padding: 75px 30px;
+/*Contact*/
+#contact {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: grey;
 }
 
-.row-flex {
-	display: flex;
-	flex-direction: row;
+#contact h2 {
+	color: lightgrey;
 }
 
-.opening-time,
-.contact-address {
-	margin: 30px 0;
-	padding-left: 150px;
-	flex: 1;
+.contact-icons i {
+	margin-right: 16px;
+	color: red;
+	font-size: 32px;
 }
 
-.opening-time p span,
-.contact-address p span {
-	display: block;
+.form input {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: 100%;
+}
+
+.form textarea {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: 100%;
+}
+
+.btn {
+	padding: 12px 24px;
+	background-color: lightgrey;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: grey;
 }
 
 /*Footer*/
-footer {
+.footer {
+	color: black;
+}
+
+.footer-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer-column {
+	padding: 10px;
+	float: left;
+}
+
+.hours {
+	width: 25%;
+}
+
+.footer-icon {
 	text-align: center;
-	font-size: 17px;
-	letter-spacing: 1.25px;
+	width: 50%;
+	padding-top: 64px;
 }
 
-/*Responsive*/
-@media screen and (max-width: 1400px) {
-	.intro {
-		background-image: url("Image30-1536x1153.jpeg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		min-height: 850px;
-	}
-	.intro h1 {
-		margin: 0 auto;
-		color: red;
-	}
+.footer-icon button {
+	background-color: transparent;
+	font-size: 17.5px;
 }
 
-@media screen and (max-width: 900px) {
-	.column {
-		width: 50%;
-	}
+.footer-icon button:hover {
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.address {
+	width: 25%;
 }
 
 @media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.column {
+	.footer-column {
 		width: 100%;
 	}
 }
