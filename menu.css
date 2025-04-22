@@ -16,21 +16,21 @@ body {
 	text-align: center;
 }
 
-.header a {
+.home {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	top: 8px;
+	right: 16px;
+	position: absolute;
+}
+
+.header p {
 	font-size: 72px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-	from {
-		text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
-	}
-	to {
-		text-shadow: 0 0 20px #fff, 0 0 30px #d9d9d9, 0 0 40px #d9d9d9, 0 0 50px #d9d9d9, 0 0 60px #d9d9d9, 0 0 70px #d9d9d9, 0 0 80px #d9d9d9;
-	}
 }
 
 /*NAVBAR MENU*/
@@ -58,18 +58,12 @@ body {
 	background-color: #04aa6d;
 }
 
-@media screen and (max-width: 500px) {
-	.navbar a {
-		display: block;
-		text-align: left;
-		float: none;
-		width: 100%;
-	}
-}
-
 /*ROW AND COLUMNS*/
 .row {
-	margin: 10px -16px;
+	margin: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #c3c3c3;
 }
 
 .row:after {
@@ -89,8 +83,27 @@ body {
 }
 
 /*CONTENT*/
+h2 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h3 {
+	margin-bottom: 0;
+	text-align: center;
+	font-style: italic;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+
 .content {
-	background-color: white;
+	background-color: transparent;
 	padding: 10px;
 	display: block;
 }
@@ -108,10 +121,41 @@ body {
 	font-weight: bold;
 }
 
-h4 {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	text-align: center;
+/*RESPONSIVE*/
+@media screen and (max-width: 800px) {
+	.navbar a.active {
+		background-color: transparent;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header a {
+		font-size: 13.5px;
+	}
+	.header p {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.navbar a {
+		padding: 0;
+		text-align: left;
+		font-size: 12px;
+		width: 11.11%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.header a {
+		font-size: 12px;
+	}
+	.navbar a {
+		display: block;
+		text-align: left;
+		float: none;
+		width: 100%;
+	}
 }
