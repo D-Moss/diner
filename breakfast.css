@@ -23,11 +23,3 @@
 .breakfast img {
 	border-radius: 10px;
 }
-
-/*RESPONSIVE*/
-@media screen and (max-width: 725px) {
-	.content span {
-		margin-top: 0;
-		display: none;
-	}
-}

@@ -1,15 +1,3 @@
-.row {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #c3c3c3;
-}
-
-h2 {
-	text-align: center;
-}
-
 .kbreakfast img {
 	border-radius: 10px;
 }
@@ -28,8 +16,4 @@ h2 {
 
 .kdessert img {
 	border-radius: 10px;
-}
-
-.content {
-	background-color: #c3c3c3;
 }

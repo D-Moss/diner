@@ -112,19 +112,21 @@ h4 {
 	margin-top: 0;
 	padding-top: 0;
 	text-align: center;
-	font-style: italic;
+	font-style: normal;
 	font-size: 13px;
+	font-weight: bold;
 }
 
 .content span {
-	font-style: normal;
-	font-weight: bold;
+	font-style: italic;
+	font-weight: normal;
 }
 
 /*RESPONSIVE*/
 @media screen and (max-width: 800px) {
 	.navbar a.active {
 		background-color: transparent;
+		color: pink;
 	}
 }
 
@@ -148,6 +150,21 @@ h4 {
 	}
 }
 
+@media screen and (max-width: 700px) {
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 12px;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.header a {
 		font-size: 12px;
@@ -157,5 +174,38 @@ h4 {
 		text-align: left;
 		float: none;
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h2 {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+	p {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.row {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.row,
+	.row > .column {
+		padding: 4px;
+	}
+}
+
+@media screen and (max-width: 725px) {
+	.content span {
+		margin-top: 0;
+		display: none;
 	}
 }
